@@ -52,7 +52,6 @@ const departments = [
     icon: 'terminal',
     description: 'Driving digital transformation and software solutions.',
     members: [
-      { name: "Tarine Manikanth", role: "Lead Developer", linkedin: "https://www.linkedin.com/in/manikanth-tarine-704417192/?skipRedirect=true", img: "images/manikanth.jpg", desc: "Leading tech strategy." },
       { name: "Michael Ross", role: "Lead Dev", img: "https://i.pravatar.cc/300?img=8", desc: "Full-stack architecture." },
       { name: "Emily Blunt", role: "Sys Admin", img: "https://i.pravatar.cc/300?img=10", desc: "Infrastructure stability." }
     ]
