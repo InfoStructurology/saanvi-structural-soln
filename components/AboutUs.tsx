@@ -1,5 +1,43 @@
 import React from 'react';
 
+const icon = <svg
+  viewBox="0 0 512 512"
+  className="w-8 h-8 text-primary"
+  fill="currentColor"
+>
+  {/* Sun */}
+  <circle cx="390" cy="120" r="60" />
+  {/* Sun Rays */}
+  <g stroke="currentColor" strokeWidth="12" strokeLinecap="round">
+    <line x1="390" y1="30" x2="390" y2="0" />
+    <line x1="390" y1="210" x2="390" y2="240" />
+    <line x1="300" y1="120" x2="270" y2="120" />
+    <line x1="480" y1="120" x2="510" y2="120" />
+    <line x1="330" y1="60" x2="305" y2="35" />
+    <line x1="450" y1="60" x2="475" y2="35" />
+    <line x1="330" y1="180" x2="305" y2="205" />
+    <line x1="450" y1="180" x2="475" y2="205" />
+  </g>
+
+  {/* Solar Panel Frame */}
+  <polygon points="80,200 360,170 400,360 120,390" />
+
+  {/* Panel Grid Lines */}
+  <g stroke="#ffffff" strokeWidth="8">
+    {/* Vertical lines */}
+    <line x1="150" y1="190" x2="180" y2="380" />
+    <line x1="220" y1="180" x2="250" y2="370" />
+    <line x1="290" y1="175" x2="320" y2="365" />
+    {/* Horizontal lines */}
+    <line x1="100" y1="240" x2="380" y2="215" />
+    <line x1="110" y1="290" x2="390" y2="265" />
+    <line x1="120" y1="340" x2="400" y2="315" />
+  </g>
+
+  {/* Stand */}
+  <rect x="230" y="390" width="40" height="70" />
+  <polygon points="150,470 350,470 400,500 100,500" />
+</svg>
 // Data for all departments
 const departments = [
   {
@@ -15,7 +53,7 @@ const departments = [
   {
     id: 'solar',
     name: 'Solar Engineering',
-    icon: 'solar_power',
+    icon: icon,
     description: 'Innovating renewable energy infrastructure for a sustainable future.',
     members: [
       { name: "Venkatesh Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/venkatesh-kannan-b52311b4/", img: "images/Venkatesh.jpeg", desc: "15+ years in photovoltaic structural design." },
@@ -29,10 +67,16 @@ const departments = [
     name: 'Buildings & Infrastructure',
     icon: 'apartment',
     description: 'Constructing the skylines of tomorrow with precision and safety.',
-    members: [
-      { name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
-      { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
-      { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
+    members: [{ name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
+    { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
+    { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
+      , { name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
+    { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
+    { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
+      ,
+    { name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
+    { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
+    { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
     ]
   },
   {

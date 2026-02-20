@@ -57,25 +57,57 @@ const HeroSection: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
           <button onClick={() => onNavigate && onNavigate('service-solar')}
           ><div className="group flex flex-col items-center gap-2 cursor-pointer">
 
-              <span className="text-6xl text-text-main group-hover:text-primary transition-colors"> <img
-                src="images/solar-panel-vector-icon.jpg"
-                loading="lazy"
-                srcSet="images/solar-panel-vector-icon-p-500.jpg 500w, images/solar-panel-vector-icon-p-800.jpg 800w, images/solar-panel-vector-icon.jpg 980w"
-                alt="solar"
-                className="image-6 w-20"
-              /></span>
+              <span className="text-6xl text-text-main group-hover:text-primary transition-colors"></span>
+              <svg
+                viewBox="0 0 512 512"
+                className="w-20 h-20 text-primary"
+                fill="currentColor"
+              >
+                {/* Sun */}
+                <circle cx="390" cy="120" r="60" />
+                {/* Sun Rays */}
+                <g stroke="currentColor" strokeWidth="12" strokeLinecap="round">
+                  <line x1="390" y1="30" x2="390" y2="0" />
+                  <line x1="390" y1="210" x2="390" y2="240" />
+                  <line x1="300" y1="120" x2="270" y2="120" />
+                  <line x1="480" y1="120" x2="510" y2="120" />
+                  <line x1="330" y1="60" x2="305" y2="35" />
+                  <line x1="450" y1="60" x2="475" y2="35" />
+                  <line x1="330" y1="180" x2="305" y2="205" />
+                  <line x1="450" y1="180" x2="475" y2="205" />
+                </g>
+
+                {/* Solar Panel Frame */}
+                <polygon points="80,200 360,170 400,360 120,390" />
+
+                {/* Panel Grid Lines */}
+                <g stroke="#ffffff" strokeWidth="8">
+                  {/* Vertical lines */}
+                  <line x1="150" y1="190" x2="180" y2="380" />
+                  <line x1="220" y1="180" x2="250" y2="370" />
+                  <line x1="290" y1="175" x2="320" y2="365" />
+                  {/* Horizontal lines */}
+                  <line x1="100" y1="240" x2="380" y2="215" />
+                  <line x1="110" y1="290" x2="390" y2="265" />
+                  <line x1="120" y1="340" x2="400" y2="315" />
+                </g>
+
+                {/* Stand */}
+                <rect x="230" y="390" width="40" height="70" />
+                <polygon points="150,470 350,470 400,500 100,500" />
+              </svg>
               <span className="text-xs font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">Solar</span>
 
             </div> </button>
           <button onClick={() => onNavigate && onNavigate('service-building')}>
             <div className="group flex flex-col items-center gap-2 cursor-pointer">
-              <span className="material-symbols-outlined text-6xl text-text-main group-hover:text-primary transition-colors">apartment</span>
+              <span className="material-symbols-outlined text-6xl text-text-main group-hover:text-primary transition-colors text-primary" >apartment</span>
               <span className="text-xs font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">Buildings</span>
             </div>
           </button>
           <button onClick={() => onNavigate && onNavigate('service-telecom')}
           >          <div className="group flex flex-col items-center gap-2 cursor-pointer">
-              <span className="material-symbols-outlined text-6xl text-text-main group-hover:text-primary transition-colors">cell_tower</span>
+              <span className="material-symbols-outlined text-6xl text-text-main group-hover:text-primary transition-colors text-primary">cell_tower</span>
               <span className="text-xs font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">Telecom</span>
             </div>
           </button>
@@ -90,24 +122,55 @@ const HeroSection: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
       <div className="flex lg:hidden flex-row gap-20 mt-12 justify-center w-full">
         <div className="flex flex-col items-center gap-2">
           <button onClick={() => onNavigate && onNavigate('service-solar')}
-          > <img
-              src="images/solar-panel-vector-icon.jpg"
-              loading="lazy"
-              srcSet="images/solar-panel-vector-icon-p-500.jpg 500w, images/solar-panel-vector-icon-p-800.jpg 800w, images/solar-panel-vector-icon.jpg 980w"
-              alt="solar-panel-vector-icon"
-              className="image-6 w-20"
-            /></button>
+          >           <svg
+            viewBox="0 0 512 512"
+            className="w-20 h-20 text-primary"
+            fill="currentColor"
+          >
+              {/* Sun */}
+              <circle cx="390" cy="120" r="60" />
+              {/* Sun Rays */}
+              <g stroke="currentColor" strokeWidth="12" strokeLinecap="round">
+                <line x1="390" y1="30" x2="390" y2="0" />
+                <line x1="390" y1="210" x2="390" y2="240" />
+                <line x1="300" y1="120" x2="270" y2="120" />
+                <line x1="480" y1="120" x2="510" y2="120" />
+                <line x1="330" y1="60" x2="305" y2="35" />
+                <line x1="450" y1="60" x2="475" y2="35" />
+                <line x1="330" y1="180" x2="305" y2="205" />
+                <line x1="450" y1="180" x2="475" y2="205" />
+              </g>
+
+              {/* Solar Panel Frame */}
+              <polygon points="80,200 360,170 400,360 120,390" />
+
+              {/* Panel Grid Lines */}
+              <g stroke="#ffffff" strokeWidth="8">
+                {/* Vertical lines */}
+                <line x1="150" y1="190" x2="180" y2="380" />
+                <line x1="220" y1="180" x2="250" y2="370" />
+                <line x1="290" y1="175" x2="320" y2="365" />
+                {/* Horizontal lines */}
+                <line x1="100" y1="240" x2="380" y2="215" />
+                <line x1="110" y1="290" x2="390" y2="265" />
+                <line x1="120" y1="340" x2="400" y2="315" />
+              </g>
+
+              {/* Stand */}
+              <rect x="230" y="390" width="40" height="70" />
+              <polygon points="150,470 350,470 400,500 100,500" />
+            </svg></button>
         </div>
         <div className="flex flex-col items-center gap-2">
           <button onClick={() => onNavigate && onNavigate('service-building')}>
 
-            <span className="material-symbols-outlined text-7xl text-text-main">apartment</span>
+            <span className="material-symbols-outlined text-7xl text-text-main text-primary">apartment</span>
           </button>
         </div>
         <div className="flex flex-col items-center gap-2">
           <button onClick={() => onNavigate && onNavigate('service-telecom')}
           >
-            <span className="material-symbols-outlined text-7xl text-text-main">cell_tower</span>
+            <span className="material-symbols-outlined text-7xl text-text-main text-primary">cell_tower</span>
           </button>
         </div>
       </div>

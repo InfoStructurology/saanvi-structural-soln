@@ -179,7 +179,7 @@ interface Project {
 }
 const Projects: React.FC<Project> = ({ onNavigate }) => {
   const [activeFilter, setActiveFilter] = useState('All Projects');
-
+  console.log(activeFilter)
   const filteredProjects = activeFilter === 'All Projects'
     ? projects
     : projects.filter(p => p.category === activeFilter);
@@ -207,13 +207,13 @@ const Projects: React.FC<Project> = ({ onNavigate }) => {
         </div>
 
         {/* Filter Navigation */}
-        <div className="mb-10 overflow-x-auto pb-2 scrollbar-hide">
+        <div className="mb-10 overflow-x-auto p-2 scrollbar-hide">
           <div className="flex flex-nowrap gap-2 md:gap-4 min-w-max">
             {filters.map((filter) => (
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
-                className={`group flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-bold transition-all hover:scale-105 active:scale-95 ${activeFilter === filter
+                className={` group flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-bold transition-all hover:scale-105 active:scale-95 ${activeFilter === filter
                   ? 'bg-primary text-white shadow-md shadow-primary/20'
                   : 'bg-white border border-border-light text-text-muted hover:text-primary hover:border-primary/30'
                   }`}
@@ -263,7 +263,7 @@ const Projects: React.FC<Project> = ({ onNavigate }) => {
         <div className="mt-20 lg:mt-32">
           <div className="w-full bg-primary py-20 px-6">
             {/* Decorative subtle grid background for CTA */}
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+            <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
             <div className="relative z-10 flex flex-col items-center gap-6">
               <h2 className="text-white text-3xl md:text-4xl font-black tracking-tight max-w-2xl">
                 Ready to engineer the future?

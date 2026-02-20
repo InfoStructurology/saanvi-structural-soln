@@ -87,7 +87,7 @@ const App: React.FC = () => {
     // 4. Update Canonical Link
     const linkCanonical = document.querySelector('link[rel="canonical"]');
     if (linkCanonical) {
-      linkCanonical.setAttribute('href', `https://saanvistructural.com${data.url}`);
+      linkCanonical.setAttribute('href', `https://saanvistructuralsoln.com${data.url}`);
     }
 
     // 5. Update URL history (simulating routing)
