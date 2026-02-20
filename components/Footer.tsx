@@ -76,7 +76,7 @@ const Footer: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
             </div>
             <div className="flex items-center gap-3">
               <span className="material-symbols-outlined text-primary text-sm">call</span>
-              <p className="text-text-muted text-sm">+91 80 1234 5678</p>
+              <p className="text-text-muted text-sm">044- 4284 5115</p>
             </div>
             <div className="flex items-center gap-3">
               <span className="material-symbols-outlined text-primary text-sm">mail</span>
