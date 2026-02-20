@@ -170,9 +170,9 @@ const ServiceBuildings: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate })
         <div className="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-border-light pb-8">
           <div className="flex flex-col gap-3 max-w-[700px]">
             <h2 className="text-primary font-bold tracking-wider uppercase text-sm">Our Expertise</h2>
-            <h1 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
+            <h2 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
               Specialized Engineering Services
-            </h1>
+            </h2>
             <p className="text-text-muted text-lg leading-relaxed">
               To essential industrial facilities, we provide comprehensive structural design and analysis tailored to your specific needs.
             </p>
@@ -241,9 +241,9 @@ const ServiceBuildings: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate })
         <div className="max-w-[1440px] mx-auto px-6 lg:px-10 flex flex-col gap-16">
           <div className="text-center max-w-[800px] mx-auto">
             <h2 className="text-primary font-bold tracking-wider uppercase text-sm mb-3">Our Workflow</h2>
-            <h1 className="text-text-main text-3xl lg:text-4xl font-bold leading-tight mb-6">
+            <h2 className="text-text-main text-3xl lg:text-4xl font-bold leading-tight mb-6">
               Design to Execution Process
-            </h1>
+            </h2>
             <p className="text-text-muted">
               A systematic approach ensuring precision at every stage of the structural lifecycle.
             </p>
@@ -293,9 +293,9 @@ const ServiceBuildings: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate })
       <div className="w-full max-w-[1440px] px-6 lg:px-10 py-24 flex flex-col gap-12" id="projects">
         <div className="flex flex-col gap-3 max-w-[700px]">
           <h2 className="text-primary font-bold tracking-wider uppercase text-sm">Portfolio</h2>
-          <h1 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
+          <h2 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
             Structural Portfolio
-          </h1>
+          </h2>
           <p className="text-text-muted text-lg">
             A showcase of our technical precision, featuring building skeletons, CAD models, and completed landmarks.
           </p>

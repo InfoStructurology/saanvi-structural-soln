@@ -58,12 +58,12 @@ const HeroSection: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
           ><div className="group flex flex-col items-center gap-2 cursor-pointer">
 
               <span className="text-6xl text-text-main group-hover:text-primary transition-colors"> <img
-                  src="images/solar-panel-vector-icon.jpg"
-                  loading="lazy"                  
-                  srcSet="images/solar-panel-vector-icon-p-500.jpg 500w, images/solar-panel-vector-icon-p-800.jpg 800w, images/solar-panel-vector-icon.jpg 980w"
-                  alt="solar-panel-vector-icon"
-                  className="image-6 w-20"
-                /></span>
+                src="images/solar-panel-vector-icon.jpg"
+                loading="lazy"
+                srcSet="images/solar-panel-vector-icon-p-500.jpg 500w, images/solar-panel-vector-icon-p-800.jpg 800w, images/solar-panel-vector-icon.jpg 980w"
+                alt="solar"
+                className="image-6 w-20"
+              /></span>
               <span className="text-xs font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">Solar</span>
 
             </div> </button>
@@ -90,18 +90,24 @@ const HeroSection: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
       <div className="flex lg:hidden flex-row gap-20 mt-12 justify-center w-full">
         <div className="flex flex-col items-center gap-2">
           <button onClick={() => onNavigate && onNavigate('service-solar')}
-          ><span className="material-symbols-outlined text-6xl text-text-main">solar_power</span></button>
+          > <img
+              src="images/solar-panel-vector-icon.jpg"
+              loading="lazy"
+              srcSet="images/solar-panel-vector-icon-p-500.jpg 500w, images/solar-panel-vector-icon-p-800.jpg 800w, images/solar-panel-vector-icon.jpg 980w"
+              alt="solar-panel-vector-icon"
+              className="image-6 w-20"
+            /></button>
         </div>
         <div className="flex flex-col items-center gap-2">
           <button onClick={() => onNavigate && onNavigate('service-building')}>
 
-            <span className="material-symbols-outlined text-6xl text-text-main">apartment</span>
+            <span className="material-symbols-outlined text-7xl text-text-main">apartment</span>
           </button>
         </div>
         <div className="flex flex-col items-center gap-2">
           <button onClick={() => onNavigate && onNavigate('service-telecom')}
           >
-            <span className="material-symbols-outlined text-6xl text-text-main">cell_tower</span>
+            <span className="material-symbols-outlined text-7xl text-text-main">cell_tower</span>
           </button>
         </div>
       </div>

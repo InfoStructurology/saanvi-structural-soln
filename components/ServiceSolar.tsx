@@ -207,9 +207,9 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
         <div className="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-border-light pb-8">
           <div className="flex flex-col gap-3 max-w-[700px]">
             <h2 className="text-primary font-bold tracking-wider uppercase text-sm">Our Expertise</h2>
-            <h1 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
+            <h2 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
               Solar Infrastructure Services
-            </h1>
+            </h2>
             <p className="text-text-muted text-lg leading-relaxed">
               We engineer foundations and structures that withstand diverse soil conditions and extreme weather, maximizing your plant's operational efficiency.
             </p>
@@ -299,9 +299,9 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
         <div className="max-w-[1440px] mx-auto px-6 lg:px-10 flex flex-col gap-16">
           <div className="text-center max-w-[800px] mx-auto">
             <h2 className="text-primary font-bold tracking-wider uppercase text-sm mb-3">Our Workflow</h2>
-            <h1 className="text-text-main text-3xl lg:text-4xl font-bold leading-tight mb-6">
+            <h2 className="text-text-main text-3xl lg:text-4xl font-bold leading-tight mb-6">
               From Soil Lab to Solar Generation
-            </h1>
+            </h2>
             <p className="text-text-muted">
               A streamlined engineering process ensuring rapid deployment and long-term stability.
             </p>
@@ -351,9 +351,9 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
       <div id="projects" className="w-full max-w-[1440px] px-6 lg:px-10 py-24 flex flex-col gap-12">
         <div className="flex flex-col gap-3 max-w-[700px]">
           <h2 className="text-primary font-bold tracking-wider uppercase text-sm">Portfolio</h2>
-          <h1 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
+          <h2 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
             Solar Projects
-          </h1>
+          </h2>
           <p className="text-text-muted text-lg">
             Showcasing utility-scale parks and innovative distributed energy projects.
           </p>

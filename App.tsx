@@ -56,7 +56,7 @@ const seoData: Record<string, PageSEO> = {
   },
   'service-telecom': {
     title: "Telecom Tower Engineering Services - Saanvi",
-    description: "Specialized design and analysis for telecom towers, 5G rollouts, and rooftop strengthening.",
+    description: "Specialized design and structural analysis for telecom towers, rapid 5G rollouts, and rooftop strengthening to ensure network infrastructure resilience.",
     url: "/services/telecom"
   }
 };

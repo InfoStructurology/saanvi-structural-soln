@@ -228,9 +228,9 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
         <div className="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-border-light pb-8">
           <div className="flex flex-col gap-3 max-w-[700px]">
             <h2 className="text-primary font-bold tracking-wider uppercase text-sm">Our Expertise</h2>
-            <h1 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
+            <h2 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
               Telecom Tower Services
-            </h1>
+            </h2>
             <p className="text-text-muted text-lg leading-relaxed">
               From new greenfield towers to rooftop pole mounts and structural strengthening of existing assets.
             </p>
@@ -320,9 +320,9 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
         <div className="max-w-[1440px] mx-auto px-6 lg:px-10 flex flex-col gap-16">
           <div className="text-center max-w-[800px] mx-auto">
             <h2 className="text-primary font-bold tracking-wider uppercase text-sm mb-3">Our Workflow</h2>
-            <h1 className="text-text-main text-3xl lg:text-4xl font-bold leading-tight mb-6">
+            <h2 className="text-text-main text-3xl lg:text-4xl font-bold leading-tight mb-6">
               Site Survey to Stability Certification
-            </h1>
+            </h2>
             <p className="text-text-muted">
               Rigorous analysis and certification processes to ensure public safety and network reliability.
             </p>
@@ -372,9 +372,9 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
       <div className="w-full max-w-[1440px] px-6 lg:px-10 py-24 flex flex-col gap-12" id="projects">
         <div className="flex flex-col gap-3 max-w-[700px]">
           <h2 className="text-primary font-bold tracking-wider uppercase text-sm">Portfolio</h2>
-          <h1 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
+          <h2 className="text-text-main text-4xl font-bold leading-tight tracking-tight">
             Telecom Projects
-          </h1>
+          </h2>
           <p className="text-text-muted text-lg">
             Delivering reliable connectivity backbone across challenging terrains.
           </p>

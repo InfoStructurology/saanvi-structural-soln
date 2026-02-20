@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Block internal or non-public paths (adjust if needed)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /_temp/
+Disallow: /drafts/
+
+# Block build & tooling artifacts (React / Vite safe)
+Disallow: /node_modules/
+Disallow: /.vite/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# Prevent duplicate or irrelevant indexing
+Disallow: /*?*
+Disallow: /*&*
+
+# Allow assets
+Allow: /assets/
+Allow: /static/
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://www.structurology.com/sitemap.xml

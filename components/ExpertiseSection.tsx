@@ -37,7 +37,7 @@ const ExpertiseSection: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate })
     <section className="w-full px-4 lg:px-12 py-20 max-w-[1440px] flex flex-col gap-12">
       <div className="flex flex-col gap-4 items-center text-center">
         <span className="text-primary text-sm font-bold uppercase tracking-wider">Our Expertise</span>
-        <h2 className="text-text-main text-3xl md:text-5xl font-bold leading-tight">Specialized Structural Solutions</h2>
+        <h1 className="text-text-main text-3xl md:text-5xl font-bold leading-tight">Specialized Structural Solutions</h1>
         <p className="text-text-muted text-lg max-w-2xl">The intersection of computational precision and structural artistry.
           Building the resilient backbone of the modern world.
         </p>
