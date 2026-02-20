@@ -1,4 +1,3 @@
-import { Linkedin } from 'lucide-react';
 import React from 'react';
 
 // Data for all departments
@@ -172,7 +171,8 @@ const AboutUs: React.FC<ABoutus> = ({ onNavigate }) => {
                       href={member.linkedin} target="_blank"
                       className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:border-brand-gold hover:text-brand-dark transition-all duration-300"
                     >
-                      <Linkedin size={18} />
+                      <img src="images/linkedin.png" className='w-5'>
+                      </img>
                     </a>
                   </div>
                 ))}
