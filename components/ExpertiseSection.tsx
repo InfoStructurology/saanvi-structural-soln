@@ -49,7 +49,7 @@ const expertise = [
   {
     icon: "apartment",
     title: "Buildings",
-    description: "High-rise & complex facility design.",
+    description: "Buildings complex facility design.",
     imageUrl: "images/buildings.jpg",
     alt: "Modern high-rise glass building exterior looking up",
     link: 'service-building'

@@ -107,6 +107,21 @@
       background-color: #1e3a8a;
       opacity: 0.03;
     }
+    @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
   </style>
   <script type="importmap">
 {

@@ -197,30 +197,44 @@ const AboutUs: React.FC<ABoutus> = ({ onNavigate }) => {
                 </div>
                 <div className="h-px bg-border-light flex-1 ml-4"></div>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {dept.members.map((member, idx) => (
-                  <div key={idx} className="flex flex-col items-center p-6 bg-white border border-border-light rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
-                    <div className="h-24 w-24 rounded-full overflow-hidden mb-4 border-2 border-primary/20">
-                      <img
-                        src={member.img}
-                        alt={`Headshot of ${member.name}`}
-                        className="h-full w-full object-cover"
-                        loading="lazy"
-                      />
-                    </div>
-                    <h4 className="text-lg font-bold text-text-main text-center">{member.name}</h4>
-                    <p className="text-sm font-medium text-primary mb-2 text-center">{member.role}</p>
-                    <p className="text-xs text-center text-text-muted">{member.desc}</p>
-                    <a
-                      href={member.linkedin} target="_blank"
-                      className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:border-brand-gold hover:text-brand-dark transition-all duration-300"
-                    >
-                      <img src="images/linkedin.png" alt='Linkedin' className='w-5'>
-                      </img>
-                    </a>
-                  </div>
-                ))}
-              </div>
+              <div className="overflow-hidden relative">
+  <div
+    className={`flex gap-6 ${
+      dept.members.length > 3 ? "animate-scroll" : "flex-wrap justify-left"
+    }`}
+  >
+    {(dept.members.length > 3
+      ? [...dept.members, ...dept.members] // duplicate only if scrolling
+      : dept.members
+    ).map((member, idx) => (
+      <div
+        key={idx}
+        className="flex-shrink-0 w-72 flex flex-col items-center p-6 bg-white border border-border-light rounded-xl shadow-sm"
+      >
+        <div className="h-24 w-24 rounded-full overflow-hidden mb-4 border-2 border-primary/20">
+          <img
+            src={member.img}
+            alt={`Headshot of ${member.name}`}
+            className="h-full w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+
+        <h4 className="text-lg font-bold text-text-main text-center">
+          {member.name}
+        </h4>
+
+        <p className="text-sm font-medium text-primary mb-2 text-center">
+          {member.role}
+        </p>
+
+        <p className="text-xs text-center text-text-muted">
+          {member.desc}
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
             </div>
           ))}
         </div>
