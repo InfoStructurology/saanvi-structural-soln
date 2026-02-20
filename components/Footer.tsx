@@ -10,7 +10,7 @@ const Footer: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
   // Updated to take a string argument for the path
   const handleNavigation = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
     // If no onNavigate prop is provided, let the browser handle the link naturally
-    if (!onNavigate) return; 
+    if (!onNavigate) return;
 
     e.preventDefault(); // Stop full page reload
     console.log(`Navigating to ${path}...`);
@@ -31,13 +31,12 @@ const Footer: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
           <p className="text-text-muted text-sm leading-relaxed max-w-xs">
             Delivering the resilient backbone of the modern world through computational precision and engineering artistry. Licensed in all 50 states.
           </p>
-          <div className="flex gap-4 mt-2">
+          <div className="flex mt-2">
             <a href="https://in.linkedin.com/company/saanvi-structural-soln" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:border-brand-gold hover:text-brand-dark transition-all duration-300">
-              <Linkedin size={18} />
-            </a>
+              <img src="images/linkedin.png" alt="linkedin"  className='w-5'>
+              </img>            </a>
             <a href="https://www.instagram.com/saanvi_structural_official/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:border-brand-gold hover:text-brand-dark transition-all duration-300">
-              <InstagramIcon size={18} />
-            </a>
+              <img src="images/insta.png"  alt="instagram"className='w-5' />            </a>
           </div>
         </div>
 
@@ -87,7 +86,7 @@ const Footer: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
       </div>
 
       <div className="max-w-[1440px] mx-auto pt-8 border-t border-border-light flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-text-muted text-sm">© 2023 Saanvi Structural Soln. All rights reserved.</p>
+        <p className="text-text-muted text-sm">© 2026 Saanvi Structural Soln. All rights reserved.</p>
         <div className="flex gap-6">
           <a className="text-text-muted hover:text-primary text-sm" href="#">Privacy Policy</a>
           <a className="text-text-muted hover:text-primary text-sm" href="#">Terms of Service</a>
