@@ -118,7 +118,7 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
       highlight: "",
     },
     {
-      title: "Inverter Supporting Structure",
+      title: "Inverter Supporting Structure Carports",
       description:
         "", icon: <FaChargingStation className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
       highlight:
