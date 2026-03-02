@@ -10,6 +10,7 @@ import ServiceBuildings from './components/ServiceBuildings';
 import ServiceTelecom from './components/ServiceTelecom';
 import Footer from './components/Footer';
 import "tailwindcss";
+import Carports from './components/Carports';
 // Define SEO Metadata interface
 interface PageSEO {
   title: string;
@@ -58,6 +59,11 @@ const seoData: Record<string, PageSEO> = {
     title: "Telecom Tower Engineering Services - Saanvi",
     description: "Specialized design and structural analysis for telecom towers, rapid 5G rollouts, and rooftop strengthening to ensure network infrastructure resilience.",
     url: "/services/telecom"
+  },
+  'service-carports': {
+    title: "Telecom Tower Engineering Services - Saanvi",
+    description: "Specialized design and structural analysis for telecom towers, rapid 5G rollouts, and rooftop strengthening to ensure network infrastructure resilience.",
+    url: "/services/carports"
   }
 };
 
@@ -121,18 +127,20 @@ const App: React.FC = () => {
       <div className="fixed top-1/3 right-1/4 w-12 h-12 floating-square z-0" aria-hidden="true"></div>
 
       <Header onNavigate={setCurrentPage} currentPage={currentPage} />
-      
+
       <main className="flex-1 flex flex-col items-center w-full z-10">
         {currentPage === 'home' && <Home onNavigate={setCurrentPage} />}
-        {currentPage === 'about' && <AboutUs onNavigate={setCurrentPage}  />}
+        {currentPage === 'about' && <AboutUs onNavigate={setCurrentPage} />}
         {currentPage === 'contact' && <ContactUs />}
-        {currentPage === 'projects' && <Projects   onNavigate={setCurrentPage} />}
+        {currentPage === 'projects' && <Projects onNavigate={setCurrentPage} />}
         {currentPage === 'blogs' && <Blogs />}
-        {currentPage === 'service-solar' && <ServiceSolar onNavigate={setCurrentPage}/>}
-        {currentPage === 'service-building' && <ServiceBuildings onNavigate={setCurrentPage}/>}
+        {currentPage === 'service-solar' && <ServiceSolar onNavigate={setCurrentPage} />}
+        {currentPage === 'service-building' && <ServiceBuildings onNavigate={setCurrentPage} />}
         {currentPage === 'service-telecom' && <ServiceTelecom onNavigate={setCurrentPage} />}
+        {currentPage === 'service-carports' && <Carports onNavigate={setCurrentPage} />}
+
       </main>
- 
+
       <Footer onNavigate={setCurrentPage} />
     </div>
   );

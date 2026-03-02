@@ -123,7 +123,16 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
         "", icon: <FaChargingStation className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
       highlight:
         ""
-    }],
+    },
+    {
+      title: "Equipment Support Pads Wind Tunnel Analysis",
+      description:
+        "", icon: <FaChargingStation className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
+      highlight:
+        ""
+    },
+
+    ],
     additional: [
       {
         title: "Peer Review",
