@@ -84,13 +84,9 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
                   onClick={() => handleNavClick('service-telecom')}
                   className="text-left px-4 py-3 text-text-main hover:bg-background-off hover:text-primary transition-colors text-sm font-medium"
                 >
-                  Telecommunication                </button>
-                <button
-                  onClick={() => handleNavClick('service-carports')}
-                  className="text-left px-4 py-3 text-text-main hover:bg-background-off hover:text-primary transition-colors text-sm font-medium"
-                >
-                  Carports
+                  Telecommunication
                 </button>
+
               </div>
             )}
           </div>
@@ -153,12 +149,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
             >
               Telecomunication
             </button>
-             <button
-              onClick={() => handleNavClick('service-carports')}
-              className="text-primary hover:text-primary-dark transition-colors text-base font-medium uppercase tracking-wide py-1"
-            >
-              Carports
-            </button>
+
           </div>
           <div className="w-16 h-px bg-border-light my-2"></div>
           <button
