@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaArrowsAltH, FaBalanceScale, FaBatteryFull, FaBolt, FaChargingStation, FaClipboardCheck, FaCogs, FaHome, FaIndustry, FaSun, FaUsers, FaWind } from 'react-icons/fa';
+import {  FaBalanceScale, FaBatteryFull, FaBolt, FaChargingStation, FaClipboardCheck, FaCogs, FaHome, FaIndustry, FaSun, FaUsers, FaWind } from 'react-icons/fa';
 import { PiAlignCenterVerticalSimpleFill } from 'react-icons/pi';
-
+import { BiStats } from "react-icons/bi";
+import { MdGarage,MdFoundation} from "react-icons/md";
 interface ProjectsPreviewSectionProps {
   onNavigate?: (page: string) => void;
 }
@@ -82,7 +83,7 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
       title: "Fixed Tilt",
       description:
         "",
-      icon: <FaArrowsAltH className="text-[35px]" style={{ color: "black" }} />,
+      icon: <BiStats className="text-[35px]" style={{ color: "black" }} />,
       highlight:
         ""
     },
@@ -116,18 +117,24 @@ const ServiceSolar: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => 
       description:
         "", icon: <FaBatteryFull className="text-[35px] text-red-500" style={{ color: "black" }} />,
       highlight: "",
+    },{
+      title: "Carports",
+      description:
+        "", icon: <MdGarage className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
+      highlight:
+        ""
     },
     {
-      title: "Inverter Supporting Structure Carports",
+      title: "Inverter Supporting Structure",
       description:
         "", icon: <FaChargingStation className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
       highlight:
         ""
     },
     {
-      title: "Equipment Support Pads Wind Tunnel Analysis",
+      title: "Equipment Support Pads",
       description:
-        "", icon: <FaChargingStation className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
+        "", icon: <MdFoundation className="text-[35px] text-yellow-500" style={{ color: "black" }} />,
       highlight:
         ""
     },
