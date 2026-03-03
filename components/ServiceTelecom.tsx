@@ -88,7 +88,7 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
         //"Optimal Placement & Strong Signal.",
       },
       {
-        title: "Pile Design",
+        title: "Mount Analysis",
         description:
           // "Expert pile design providing a rock-solid foundation for your telecom tower on any terrain, ensuring unwavering support.",
           "",
@@ -114,7 +114,7 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
         // "Safe & Code-Compliant Structures.",
       },
       {
-        title: "Geotechnical Analysis",
+        title: "Tower Mapping",
         description:
           //"Expert geotechnical analysis to ensure your telecom tower has a stable base, considering soil conditions and potential risks.",
           "",
@@ -122,6 +122,7 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
         highlight: ""
         //"Stable Foundation From the Ground Up.",
       },
+      
       {
         title: "Zoning Construction Drawings",
         description:
