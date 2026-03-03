@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaBalanceScale, FaCameraRetro, FaChartLine, FaDraftingCompass, FaFileAlt, FaGlobeAmericas, FaHandshake, FaMapMarkedAlt, FaNetworkWired, FaPencilRuler, FaPlug, FaSatelliteDish } from 'react-icons/fa';
-import { PiAlignCenterVerticalSimpleFill } from 'react-icons/pi';
+import { FaBalanceScale, FaCameraRetro, FaChartLine, FaCogs,FaSearchLocation,FaDraftingCompass, FaFileAlt, FaHandshake, FaNetworkWired, FaPencilRuler, FaPlug, FaSatelliteDish } from 'react-icons/fa';
+// import { PiAlignCenterVerticalSimpleFill } from 'react-icons/pi';
 interface ProjectsPreviewSectionProps {
   onNavigate?: (page: string) => void;
 }
@@ -77,70 +77,50 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
     ]
   };
   const TelecommunicationData = {
-    telecommunication: [
-      {
-        title: "Site Surveys",
-        description:
-          // "Comprehensive site surveys to identify optimal tower placement, ensuring strong signal strength and a smooth build process.",
-          "",
-        icon: <FaMapMarkedAlt className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        //"Optimal Placement & Strong Signal.",
-      },
-      {
-        title: "Mount Analysis",
-        description:
-          // "Expert pile design providing a rock-solid foundation for your telecom tower on any terrain, ensuring unwavering support.",
-          "",
-        icon: <PiAlignCenterVerticalSimpleFill className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        //"Rock-solid Foundation.",
-      },
-      {
-        title: "Mount Mapping",
-        description:
-          // "Advanced mount mapping to identify the perfect placement for telecom equipment, maximizing signal strength and minimizing visual impact.",
-          "",
-        icon: <FaDraftingCompass className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        //"Maximized Signal, Minimal Impact.",
-      },
-      {
-        title: "Tower Analysis",
-        description:
-          //"Expert tower analysis ensuring your telecommunication tower is safe, reliable, and meets all code requirements, maximizing uptime.",
-          "", icon: <FaChartLine className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        // "Safe & Code-Compliant Structures.",
-      },
-      {
-        title: "Tower Mapping",
-        description:
-          //"Expert geotechnical analysis to ensure your telecom tower has a stable base, considering soil conditions and potential risks.",
-          "",
-        icon: <FaGlobeAmericas className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        //"Stable Foundation From the Ground Up.",
-      },
-      
-      {
-        title: "Zoning Construction Drawings",
-        description:
-          //"Streamlining telecom tower projects by handling zoning approvals and creating detailed construction drawings, saving time and ensuring a compliant build.",
-          "",
-        icon: <FaPencilRuler className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        //"Fast Approvals, Compliant Builds.",
-      },
-      {
-        title: "Photosimulations",
-        description:
-          //"Creation of photosimulations for your telecom project, showcasing its visual impact before construction begins, ensuring seamless integration into the landscape.",
-          "", icon: <FaCameraRetro className="text-[35px] " style={{ color: "black" }} />,
-        highlight: ""
-        //"Visual Clarity Before Building.",
-      }
-    ],
+   telecommunication: [
+  {
+    title: "Site Surveys",
+    description: "On-site technical evaluations to determine optimal tower placement, line-of-sight feasibility, and construction access requirements.",
+    icon: <FaSatelliteDish className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Optimal Placement & Signal Integrity"
+  },
+  {
+    title: "Mount Analysis",
+    description: "Structural assessment of existing antenna mounts to ensure they can safely support new equipment loads under wind and ice conditions.",
+    icon: <FaCogs className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Structural Load Verification"
+  },
+  {
+    title: "Mount Mapping",
+    description: "Detailed field documentation of existing mount configurations, member sizes, and equipment inventory for accurate engineering modeling.",
+    icon: <FaDraftingCompass className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Precision Field Documentation"
+  },
+  {
+    title: "Tower Analysis",
+    description: "Comprehensive structural modeling of the entire tower to verify capacity and compliance with TIA-222 standards and local building codes.",
+    icon: <FaChartLine className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Code-Compliant Reliability"
+  },
+  {
+    title: "Tower Mapping",
+    description: "In-depth physical audit of tower geometry, bolt patterns, and steel grades to create accurate 'as-built' records for engineering.",
+    icon: <FaSearchLocation className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Accurate As-Built Data"
+  },
+  {
+    title: "Zoning & Construction Drawings",
+    description: "Full-service architectural and engineering plan sets, from initial zoning permit drawings to final detailed construction documents.",
+    icon: <FaPencilRuler className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Seamless Permit Approvals"
+  },
+  {
+    title: "Photosimulations",
+    description: "High-fidelity visual renderings of proposed site upgrades to assist in public hearings and community impact assessments.",
+    icon: <FaCameraRetro className="text-[35px]" style={{ color: "black" }} />,
+    highlight: "Realistic Visual Impact Assessment"
+  }
+],
     projectSupport: [
       {
         title: "Permit Submission and Tracking",
