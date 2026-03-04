@@ -10,6 +10,7 @@ import ServiceBuildings from './components/ServiceBuildings';
 import ServiceTelecom from './components/ServiceTelecom';
 import Footer from './components/Footer';
 import "tailwindcss";
+import Careers from './components/Career';
 // Define SEO Metadata interface
 interface PageSEO {
   title: string;
@@ -33,6 +34,11 @@ const seoData: Record<string, PageSEO> = {
     title: "Contact Us - Saanvi Structural Soln",
     description: "Get in touch for structural consulting for solar, buildings, and telecom projects. Request a free quote today.",
     url: "/contact"
+  },
+  career: {
+    title: "Career - Saanvi Structural Soln",
+    description: "Get in touch for structural consulting for solar, buildings, and telecom projects. Request a free quote today.",
+    url: "/career"
   },
   projects: {
     title: "Our Portfolio - Saanvi Structural Soln",
@@ -131,6 +137,7 @@ const App: React.FC = () => {
         {currentPage === 'service-solar' && <ServiceSolar onNavigate={setCurrentPage} />}
         {currentPage === 'service-building' && <ServiceBuildings onNavigate={setCurrentPage} />}
         {currentPage === 'service-telecom' && <ServiceTelecom onNavigate={setCurrentPage} />}
+        {currentPage === 'career' && <Careers onNavigate={setCurrentPage} />}
 
       </main>
 

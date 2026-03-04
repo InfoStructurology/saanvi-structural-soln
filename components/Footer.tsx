@@ -33,10 +33,10 @@ const Footer: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
           </p>
           <div className="flex mt-2">
             <a href="https://in.linkedin.com/company/saanvi-structural-soln" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:border-brand-gold hover:text-brand-dark transition-all duration-300">
-              <img src="images/linkedin.png" alt="linkedin"  className='w-5'>
+              <img src="images/linkedin.png" alt="linkedin" className='w-5'>
               </img>            </a>
             <a href="https://www.instagram.com/saanvi_structural_official/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:border-brand-gold hover:text-brand-dark transition-all duration-300">
-              <img src="images/insta.png"  alt="instagram"className='w-5' />            </a>
+              <img src="images/insta.png" alt="instagram" className='w-5' />            </a>
           </div>
         </div>
 
@@ -48,6 +48,8 @@ const Footer: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
             <a className="text-text-muted hover:text-primary transition-colors text-sm" href="/" onClick={(e) => handleNavigation(e, 'home')}>Our Services</a>
             <a className="text-text-muted hover:text-primary transition-colors text-sm" href="/projects" onClick={(e) => handleNavigation(e, 'projects')}>Projects</a>
             <a className="text-text-muted hover:text-primary transition-colors text-sm" href="/contact" onClick={(e) => handleNavigation(e, 'contact')}>Contact</a>
+            <a className="text-text-muted hover:text-primary transition-colors text-sm" href="/career" onClick={(e) => handleNavigation(e, 'career')}>Career</a>
+
           </nav>
         </div>
 

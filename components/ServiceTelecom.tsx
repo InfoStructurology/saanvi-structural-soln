@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBalanceScale, FaCameraRetro, FaChartLine, FaCogs,FaSearchLocation,FaDraftingCompass, FaFileAlt, FaHandshake, FaNetworkWired, FaPencilRuler, FaPlug, FaSatelliteDish } from 'react-icons/fa';
+import { FaBalanceScale, FaCameraRetro, FaChartLine, FaCogs, FaSearchLocation, FaDraftingCompass, FaFileAlt, FaHandshake, FaNetworkWired, FaPencilRuler, FaPlug, FaSatelliteDish } from 'react-icons/fa';
 // import { PiAlignCenterVerticalSimpleFill } from 'react-icons/pi';
 interface ProjectsPreviewSectionProps {
   onNavigate?: (page: string) => void;
@@ -7,45 +7,128 @@ interface ProjectsPreviewSectionProps {
 
 const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) => {
   const telecomSlides = [
+
     {
-      img: "images/1t.jpg",
+      img: "images/Sossaman.jpg",
       alt: "AT&T",
-      title: "AT&T Wisil",
-      description:
-        "8113 Lemont Road, Darien, IL 60515 — Guyed Tower - Tower MOD",
+      title: "Sossaman & Chandler Heights",
+      description: "180th Street& Chandler Heights Road Gilbert, AZ 85297"
     },
     {
-      img: "images/2t.jpg",
-      alt: "Skyward",
-      title: "Skyward NSB",
-      description: "1897 N MAIN ST., SEARCY, AR 72143 — Proposed Overall Site",
+      img: "images/SWHicksville.jpg",
+      alt: "Westchester Services LLC.,",
+      title: "SW Hicksville",
+      description: "305 North New Bridge Roadlevittown, NY 1175"
     },
     {
-      img: "images/3t.jpg",
-      alt: "Anchor Project",
-      title: "Anchor Project",
-      description:
-        "3810 Bancroft Street, San Diego, CA 92104 — Proposed FRP Screen",
-    },
-    {
-      img: "images/4t.jpg",
+      img: "images/SantaYnez.jpg",
       alt: "Verizon",
-      title: "Verizon",
-      description: "34551 Kaiser Dr, Fremont, CA 94555 — FRP Mount MOD",
+      title: "Santa Ynez",
+      description: "Forest service Rd., 5Services:"
     },
     {
-      img: "images/5t.jpg",
-      alt: "SAC (MXEXP)",
-      title: "SAC (MXEXP)",
-      description:
-        "2660 Civic Center Dr, Roseville, MN 55113 — Monopole tower MOD",
+      img: "images/Congress.jpg",
+      alt: "AZ Airnet",
+      title: "Congress Fire Relay",
+      description: "26733 S SANTA FE ROAD, CONGRESS, AZ 85332"
     },
     {
-      img: "images/6t.jpg",
-      alt: "US Cellular",
-      title: "US Cellular",
-      description: `289 N. Pekin Rd., Woodland, WA 98674 — Self-Support Tower MOD, Platform Mount MOD`,
+      img: "images/GarfieldDurden.png",
+      alt: "Technology Associates",
+      title: "Garfield / Durden",
+      description: "2314 E Union Street Seattle, WA 98122"
     },
+    {
+      img: "images/BodegaHwy.jpg",
+      alt: "Verizon",
+      title: "Bodega Hwy",
+      description: "155 Grandview Road, Sebastopol, CA 95472"
+    },
+    {
+      img: "images/VBSprintPH80XC116.jpg",
+      alt: "T-Mobile",
+      title: "VB Sprint PH80XC116",
+      description: "6455 W Sunset St, Yuma, AZ 85365"
+    },
+    {
+      img: "images/LA52XC052MelcoSteel.png",
+      alt: "T-Mobile",
+      title: "LA52XC052 - Melco Steel",
+      description: "1100 W. Foothill Blvd. Azusa, CA 91702"
+    },
+    {
+      img: "images/LALAX04600C.jpg",
+      alt: "Dish Wireless",
+      title: "LALAX04600C",
+      description: "06 E Avenue R Palmdale, CA 93550"
+    },
+    {
+      img: "images/AntelopeSubstation.jpeg",
+      alt: "SAC A Nokia Company",
+      title: "Antelope Substation",
+      description: "9634 W. Avenue J, Lancaster, CA 93536"
+    },
+    {
+      img: "images/LVBS&SKYLasVegasDr.png",
+      alt: "SAC Wireless – COX sites",
+      title: "LVBS & SKY Las Vegas Dr",
+      description: "LVBS & SKY Las Vegas Dr Las Vegas, NV 89109"
+    },
+    {
+      img: "images/DennyPoint.jpg",
+      alt: "SAC A Nokia Company",
+      title: "Denny Point",
+      description: "3801 Mcconaughy Gul Rd, Etna, CA 96027"
+    },
+    {
+      img: "images/Ewen.jpeg",
+      alt: "Sac Ae Design Group, Inc.",
+      title: "Ewen",
+      description: "110 WILLOW ST., Ewen, MI 49925"
+    },
+    {
+      img: "images/RMVHorton.jpg",
+      alt: "Verizon",
+      title: "RMV Horton",
+      description: "31830 Cow Camp Road, Reanjo Mission Viejo, CA 92694"
+    },
+    {
+      img: "images/SC70151A.png",
+      alt: "T-Mobile",
+      title: "SC70151A",
+      description: "460 6th Street Hamilton City, CA 95951-0125"
+    },
+    {
+      img: "images/SpiritMTN.png",
+      alt: "Verizon",
+      title: "Spirit MTN",
+      description: "Christmas Tree Pass Road, Searchlight, NV 89039"
+    },
+    {
+      img: "images/APPALACHIANWIRELESS-COLDIRON.jpg",
+      alt: "T-Mobile",
+      title: "Appalachian Wireless-coldiron",
+      description: "266 Vanover Hill Rd., Coldiron, KY 40819"
+    },
+    {
+      img: "images/DunfordWT.png",
+      alt: "SAC A Nokia Company",
+      title: "Dunford WT",
+      description: "365 Dunford Dr., Burlington, WI 53105"
+    },
+    {
+      img: "images/SD165OTAYMESA-AT&TCO.png",
+      alt: "SAC A Nokia Company",
+      title: "SD165 OTAY MESA-AT&T CO",
+      description: "1670 Cactus Road San Diego, CA 92154"
+    },
+    {
+      img: "images/SchoolHall-PlantarGP.png",
+      alt: "Land Development",
+      title: "School Hall-Plantar GP",
+      description: "1020 El Centro St,south Pasadena, CA 91030"
+    }
+
   ];
   const telecommunicationBenefitsData = {
     telecommunicationBenefits: [
@@ -77,50 +160,50 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
     ]
   };
   const TelecommunicationData = {
-   telecommunication: [
-  {
-    title: "Site Surveys",
-    description: "On-site technical evaluations to determine optimal tower placement, line-of-sight feasibility, and construction access requirements.",
-    icon: <FaSatelliteDish className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Optimal Placement & Signal Integrity"
-  },
-  {
-    title: "Mount Analysis",
-    description: "Structural assessment of existing antenna mounts to ensure they can safely support new equipment loads under wind and ice conditions.",
-    icon: <FaCogs className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Structural Load Verification"
-  },
-  {
-    title: "Mount Mapping",
-    description: "Detailed field documentation of existing mount configurations, member sizes, and equipment inventory for accurate engineering modeling.",
-    icon: <FaDraftingCompass className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Precision Field Documentation"
-  },
-  {
-    title: "Tower Analysis",
-    description: "Comprehensive structural modeling of the entire tower to verify capacity and compliance with TIA-222 standards and local building codes.",
-    icon: <FaChartLine className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Code-Compliant Reliability"
-  },
-  {
-    title: "Tower Mapping",
-    description: "In-depth physical audit of tower geometry, bolt patterns, and steel grades to create accurate 'as-built' records for engineering.",
-    icon: <FaSearchLocation className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Accurate As-Built Data"
-  },
-  {
-    title: "Zoning & Construction Drawings",
-    description: "Full-service architectural and engineering plan sets, from initial zoning permit drawings to final detailed construction documents.",
-    icon: <FaPencilRuler className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Seamless Permit Approvals"
-  },
-  {
-    title: "Photosimulations",
-    description: "High-fidelity visual renderings of proposed site upgrades to assist in public hearings and community impact assessments.",
-    icon: <FaCameraRetro className="text-[35px]" style={{ color: "black" }} />,
-    highlight: "Realistic Visual Impact Assessment"
-  }
-],
+    telecommunication: [
+      {
+        title: "Site Surveys",
+        description: "On-site technical evaluations to determine optimal tower placement, line-of-sight feasibility, and construction access requirements.",
+        icon: <FaSatelliteDish className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Optimal Placement & Signal Integrity"
+      },
+      {
+        title: "Mount Analysis",
+        description: "Structural assessment of existing antenna mounts to ensure they can safely support new equipment loads under wind and ice conditions.",
+        icon: <FaCogs className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Structural Load Verification"
+      },
+      {
+        title: "Mount Mapping",
+        description: "Detailed field documentation of existing mount configurations, member sizes, and equipment inventory for accurate engineering modeling.",
+        icon: <FaDraftingCompass className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Precision Field Documentation"
+      },
+      {
+        title: "Tower Analysis",
+        description: "Comprehensive structural modeling of the entire tower to verify capacity and compliance with TIA-222 standards and local building codes.",
+        icon: <FaChartLine className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Code-Compliant Reliability"
+      },
+      {
+        title: "Tower Mapping",
+        description: "In-depth physical audit of tower geometry, bolt patterns, and steel grades to create accurate 'as-built' records for engineering.",
+        icon: <FaSearchLocation className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Accurate As-Built Data"
+      },
+      {
+        title: "Zoning & Construction Drawings",
+        description: "Full-service architectural and engineering plan sets, from initial zoning permit drawings to final detailed construction documents.",
+        icon: <FaPencilRuler className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Seamless Permit Approvals"
+      },
+      {
+        title: "Photosimulations",
+        description: "High-fidelity visual renderings of proposed site upgrades to assist in public hearings and community impact assessments.",
+        icon: <FaCameraRetro className="text-[35px]" style={{ color: "black" }} />,
+        highlight: "Realistic Visual Impact Assessment"
+      }
+    ],
     projectSupport: [
       {
         title: "Permit Submission and Tracking",
@@ -383,7 +466,7 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
             </div>
           ))}
         </div>
-            <div className="w-full  py-24">
+        <div className="w-full  py-24">
 
           <div className="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-border-light pb-8">
             <div className="flex flex-col gap-3 max-w-[700px]">
@@ -420,7 +503,7 @@ const ServiceTelecom: React.FC<ProjectsPreviewSectionProps> = ({ onNavigate }) =
             <button onClick={() => onNavigate && onNavigate('contact')} className="px-8 py-4 bg-white text-primary rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg">
               Start Your Project
             </button>
-            <button  onClick={() => onNavigate && onNavigate('blogs')} className="px-8 py-4 bg-transparent border-2 border-blue-300 text-white rounded-lg font-bold text-lg hover:bg-blue-800 hover:border-blue-800 transition-colors">
+            <button onClick={() => onNavigate && onNavigate('blogs')} className="px-8 py-4 bg-transparent border-2 border-blue-300 text-white rounded-lg font-bold text-lg hover:bg-blue-800 hover:border-blue-800 transition-colors">
               View Case Studies
             </button>
           </div>

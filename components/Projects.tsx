@@ -115,61 +115,165 @@ const projects = [
 
   {
     id: 15,
-    category: 'Telecommunications',
-    location: 'Bangalore, India',
-    image: "images/1t.jpg",
+    category: "Telecommunications",
+    image: "images/Sossaman.jpg",
     alt: "AT&T",
-    title: "AT&T Wisil",
-    description:
-      "8113 Lemont Road, Darien, IL 60515 — Guyed Tower - Tower MOD",
+    title: "Sossaman & Chandler Heights",
+    location: "180th Street & Chandler Heights Road Gilbert, AZ 85297"
   },
   {
     id: 16,
-    category: 'Telecommunications',
-    location: 'Bangalore, India',
-    image: "images/2t.jpg",
-    alt: "Skyward",
-    title: "Skyward NSB",
-    description: "1897 N MAIN ST., SEARCY, AR 72143 — Proposed Overall Site",
+    category: "Telecommunications",
+    image: "images/SWHicksville.jpg",
+    alt: "Westchester Services LLC.,",
+    title: "SW Hicksville",
+    location: "305 North New Bridge Road Levittown, NY 1175"
   },
   {
     id: 17,
-    category: 'Telecommunications',
-    location: 'Bangalore, India',
-    image: "images/3t.jpg",
-    alt: "Anchor Project",
-    title: "Anchor Project",
-    description:
-      "3810 Bancroft Street, San Diego, CA 92104 — Proposed FRP Screen",
+    category: "Telecommunications",
+    image: "images/SantaYnez.jpg",
+    alt: "Verizon",
+    title: "Santa Ynez",
+    location: "Forest Service Rd."
   },
   {
     id: 18,
-    category: 'Telecommunications',
-    location: 'Bangalore, India',
-    image: "images/4t.jpg",
-    alt: "Verizon",
-    title: "Verizon",
-    description: "34551 Kaiser Dr, Fremont, CA 94555 — FRP Mount MOD",
+    category: "Telecommunications",
+    image: "images/Congress.jpg",
+    alt: "AZ Airnet",
+    title: "Congress Fire Relay",
+    location: "26733 S Santa Fe Road, Congress, AZ 85332"
   },
   {
     id: 19,
-    category: 'Telecommunications',
-    location: 'Bangalore, India',
-    image: "images/5t.jpg",
-    alt: "SAC (MXEXP)",
-    title: "SAC (MXEXP)",
-    description:
-      "2660 Civic Center Dr, Roseville, MN 55113 — Monopole tower MOD",
+    category: "Telecommunications",
+    image: "images/GarfieldDurden.png",
+    alt: "Technology Associates",
+    title: "Garfield / Durden",
+    location: "2314 E Union Street, Seattle, WA 98122"
   },
   {
     id: 20,
-    category: 'Telecommunications',
-    location: 'Bangalore, India',
-    image: "images/6t.jpg",
-    alt: "US Cellular",
-    title: "US Cellular",
-    description: `289 N. Pekin Rd., Woodland, WA 98674 — Self-Support Tower MOD, Platform Mount MOD`,
+    category: "Telecommunications",
+    image: "images/BodegaHwy.jpg",
+    alt: "Verizon",
+    title: "Bodega Hwy",
+    location: "155 Grandview Road, Sebastopol, CA 95472"
   },
+  {
+    id: 21,
+    category: "Telecommunications",
+    image: "images/VBSprintPH80XC116.jpg",
+    alt: "T-Mobile",
+    title: "VB Sprint PH80XC116",
+    location: "6455 W Sunset St, Yuma, AZ 85365"
+  },
+  {
+    id: 22,
+    category: "Telecommunications",
+    image: "images/LA52XC052MelcoSteel.png",
+    alt: "T-Mobile",
+    title: "LA52XC052 - Melco Steel",
+    location: "1100 W Foothill Blvd, Azusa, CA 91702"
+  },
+  {
+    id: 23,
+    category: "Telecommunications",
+    image: "images/LALAX04600C.jpg",
+    alt: "Dish Wireless",
+    title: "LALAX04600C",
+    location: "06 E Avenue R, Palmdale, CA 93550"
+  },
+  {
+    id: 24,
+    category: "Telecommunications",
+    image: "images/AntelopeSubstation.jpeg",
+    alt: "SAC A Nokia Company",
+    title: "Antelope Substation",
+    location: "9634 W Avenue J, Lancaster, CA 93536"
+  },
+  {
+    id: 25,
+    category: "Telecommunications",
+    image: "images/LVBS&SKYLasVegasDr.png",
+    alt: "SAC Wireless – COX sites",
+    title: "LVBS & SKY Las Vegas Dr",
+    location: "Las Vegas, NV 89109"
+  },
+  {
+    id: 26,
+    category: "Telecommunications",
+    image: "images/DennyPoint.jpg",
+    alt: "SAC A Nokia Company",
+    title: "Denny Point",
+    location: "3801 Mcconaughy Gul Rd, Etna, CA 96027"
+  },
+  {
+    id: 27,
+    category: "Telecommunications",
+    image: "images/Ewen.jpeg",
+    alt: "Sac Ae Design Group, Inc.",
+    title: "Ewen",
+    location: "110 Willow St, Ewen, MI 49925"
+  },
+  {
+    id: 28,
+    category: "Telecommunications",
+    image: "images/RMVHorton.jpg",
+    alt: "Verizon",
+    title: "RMV Horton",
+    location: "31830 Cow Camp Road, Rancho Mission Viejo, CA 92694"
+  },
+  {
+    id: 29,
+    category: "Telecommunications",
+    image: "images/SC70151A.png",
+    alt: "T-Mobile",
+    title: "SC70151A",
+    location: "460 6th Street, Hamilton City, CA 95951-0125"
+  },
+  {
+    id: 30,
+    category: "Telecommunications",
+    image: "images/SpiritMTN.png",
+    alt: "Verizon",
+    title: "Spirit MTN",
+    location: "Christmas Tree Pass Road, Searchlight, NV 89039"
+  },
+  {
+    id: 31,
+    category: "Telecommunications",
+    image: "images/APPALACHIANWIRELESS-COLDIRON.jpg",
+    alt: "T-Mobile",
+    title: "Appalachian Wireless - Coldiron",
+    location: "266 Vanover Hill Rd, Coldiron, KY 40819"
+  },
+  {
+    id: 32,
+    category: "Telecommunications",
+    image: "images/DunfordWT.png",
+    alt: "SAC A Nokia Company",
+    title: "Dunford WT",
+    location: "365 Dunford Dr, Burlington, WI 53105"
+  },
+  {
+    id: 33,
+    category: "Telecommunications",
+    image: "images/SD165OTAYMESA-AT&TCO.png",
+    alt: "SAC A Nokia Company",
+    title: "SD165 OTAY MESA - AT&T CO",
+    location: "1670 Cactus Road, San Diego, CA 92154"
+  },
+  {
+    id: 34,
+    category: "Telecommunications",
+    image: "images/SchoolHall-PlantarGP.png",
+    alt: "Land Development",
+    title: "School Hall - Plantar GP",
+    location: "1020 El Centro St, South Pasadena, CA 91030"
+  }
+
 ];
 
 const filters = ['All Projects', 'Solar Engineering', 'Building Infrastructure', 'Telecommunications'];
