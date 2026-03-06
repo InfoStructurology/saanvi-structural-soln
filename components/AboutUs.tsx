@@ -58,26 +58,55 @@ const departments = [
     members: [
       { name: "Venkatesh Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/venkatesh-kannan-b52311b4/", img: "images/Venkatesh.jpeg", desc: "15+ years in photovoltaic structural design." },
       { name: "Selvamuthumani T", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/selvamuthumani-t-345355179/", img: "images/salva.jpeg", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Vikram Singh", role: "Design Lead", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA7fuqbCvDv-6_-pGq7UmeJhlvTr6KMuCkkLRNLLMSaAUElYd5ra5PwkAQ90Q5GKunzgic4gan3A9_I7WkHDtL4BWJWNk0g3vEr6VyVC8qc_l_UbtUw9rXjfT83IFX_GqMQ951MQzgx8nmdJX8jsRZgE9hitqzL7a6X6mliIVbohiHJS9Rlza43284dD0PK-YFY4Rh4UAb2nHZMU0ziQ8Af5Ko1vehd7QCbvPtLhSszrj_EsNFZAGO8aogbWXdAkDlZ_AqxwlTSdncy", desc: "Specializes in ground-mount optimization." },
-      { name: "Priya Desai", role: "Project Manager", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuATCFS6duarM8mEKn0amRoq95CB4EyB6Trw3JJ27DhwQIKn7QeYHZxsDkm_fBgQ4xgJ45qk5u1qpieNuRsmIrvIgksqmDpmL7O1wGFjzsH_gS14yIX28PLJUJtBM1c-CRGdQh7cmga-O61KqMiHLsLd6959dIMcRl6cYm2d-DTY6hOy2y4xtwh6n4pcvM66WPnDdkh0rNvGTozx4zpK5gqBXp1So84scMqsTrkw_69hLrFe8UVOczv3KQmOb5GNUbiJ2gC0CFw4RHvv", desc: "Managing large-scale utility solar projects." }
-    ]
+       { name: "Aarthy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aarthy.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "ABINAYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ABINAYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Aijithkumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aijithkumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "ANJUMARYABRAHAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ANJUMARYABRAHAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Annapoorna", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Annapoorna.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Aravindraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aravindraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Arunmaniswamy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Arunmaniswamy.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Balaji", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balaji.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Balakumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balakumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "CHARUMATHI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/CHARUMATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Deepika", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Deepika.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Girija", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Girija.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "GUNASHEELA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/GUNASHEELA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "JAYASURIYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JAYASURIYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "JEEVITHA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JEEVITHA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Jeyanthi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Jeyanthi.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "JOSHUASAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JOSHUASAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kannan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Kirthyvasan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kirthyvasan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Kotteswari", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kotteswari.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Mathangi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Mathangi.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Meeradevi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meeradevi.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Meganathan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meganathan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "MohanaPriya", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/MohanaPriya.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Muthukumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Muthukumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "NEELASUNDARAVALLI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NEELASUNDARAVALLI.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "NikhilRaj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NikhilRaj.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Rekha", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Rekha.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "REVATHI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/REVATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Saikiran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Saikiran.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "SATHISH", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/SATHISH.JPG", desc: "Expert in wind load analysis for solar arrays." },
+// { name: "Selvamuthumani", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Selvamuthumani.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "shanmugam", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/shanmugam.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Sharmila", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sharmila.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Sivasankar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sivasankar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Srijan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Srijan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Subash", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Subash.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Thangaraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thangaraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Thiyagarajan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thiyagarajan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Venkatesh Kumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Venkatesh Kumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Vetrikuumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vetrikuumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+{ name: "Vignesh", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vignesh.JPG", desc: "Expert in wind load analysis for solar arrays." }  ]
   },
   {
     id: 'buildings',
     name: 'Buildings & Infrastructure',
     icon: 'apartment',
     description: 'Constructing the skylines of tomorrow with precision and safety.',
-    members: [{ name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
-    { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
-    { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
-      , { name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
-    { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
-    { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
-      ,
-    { name: "Amit Patel", role: "Director of Civil Eng.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcfhgYFSX4b2h_9LSTp9JAM71U2FwyBSGvd4UYYQTplwJo8WvpdFaGKSB3Z0uDz6y_REIcesiJhx1CLae1UE7PtNPT8EJtZCAwYD1p1xpFqRG9c46cO5ueogpCYYhcslVKbUQc76zdR_YX_ahAYT67SJXOtlPFqRi2petOo9u67aE_3WsSLP6Tr9LGY29zyGssqczd1cNNmD9do7xpSsvRlUCLgm1KDOAHZm3Pu-i9ziCjJ5-mWaXyk4V2tNcGNJxFcebkAtm_XCkG", desc: "20+ years in high-rise structural systems." },
-    { name: "Sneha Reddy", role: "Senior Architect", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDntRhNY9wR-P9kmTe_k7QQDcZXsBWNE3YRHqIS4S0aAX2yGronpj_iZG2Cs8me7BXrAQwM4kb7IcuAUFTfASQUx8jcjJk3NxC93T1vIkwXsaywip6hicHTFdkN4ZaDsusgtDIkGHICSALNnXo88BklFxB4JVj1isviENli8AvmizePrKI0TIo_A8D_NlzeuLlka58EcF3x5qhEv4CpUx0x7CO4JWp99t4z4Yuwwe9OKnC2cuIX1c4AV1kBcHhEGY9fnJlzEdWbyhZh", desc: "Focus on sustainable building envelopes." },
-    { name: "Rohan Verma", role: "Structural Consultant", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrGl7QwFqy_3wkZnUhdjka8EDfMD4zypTUWmT04MNQO1jpt6oap9YnGA55tL_tFu-XufqBTAlVKlHeWKzCLQ2IRTZVjeGf9YgkyHawrKt9v_om8AR2iEgWaIjLw9cz3unPrrSpBn5F9ySg6lwdWX68TdRsjuNafsZGfYPaAndvO3ARpf5QhbPGHQ82ySAry78ioJ88uu6GzUY3mSCfjg1XNasxg_m_g3PaWzYkZt-lfcGXXaHgjyCIv22c-vPOJnc1NNxUBPo3WWGC", desc: "Specialist in seismic retrofitting." }
-    ]
+    members: [  ]
   },
   {
     id: 'telecom',
@@ -85,9 +114,7 @@ const departments = [
     icon: 'cell_tower',
     description: 'Ensuring connectivity through robust tower engineering.',
     members: [
-      { name: "Karthik Iyer", role: "Tower Design Lead", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDMh3Z_PVOwrNU8lsdXrn2DICyEjBzMYyL0Hz9FuguloLJ4frJ0J3I0o-PGTgQvI-7RUpvf5yXKQ4Pds494pUoJE59RcriaOey-jwRVPLt-bs7DM-hWiYpYUFM9wc33nxxgCYC_JYKeUUq4b3KmU6OEddR7BSgJes1OoUI8iv68vCYyKh9N4PTN7HD9CLgHz5XbZ14NVa2f8pIOVaglLPSQRmHxx8yzV4LxpMox4U6gUV92BMDqsYqKElN5gTrixxi0odz4QZgkM01k", desc: "Design authority for 5G infrastructure." },
-      { name: "Meera Nair", role: "Foundation Specialist", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD8VpSbUgUvxqL8CONKCQ05lMLEMIvKfGwbCPlOQ0LuqL9k6ebAZoSHx3bfra_tYwpLDBumqBpfL2GZCJ0WxQBF7R5rFzPXcRmJIwcHCLscKthUhQwb5ZIYEtPePdLFLGjjo1Yhtnb6G_Jq9YvgUyqdLO2wD75jjJRVAMpsNZY6Gt0Nxo6LH7VVSgpUfpsq_yxB8r8ZmwP13i8U6ugkO0LfH5GRY-PvHW0InUErG_D-tBbvoeN-8hy5iXVx-Gg79GLXAu52xL6apA2d", desc: "Expert in remote site soil mechanics." }
-    ]
+      ]
   },
   {
     id: 'tech',
@@ -95,9 +122,7 @@ const departments = [
     icon: 'terminal',
     description: 'Driving digital transformation and software solutions.',
     members: [
-      { name: "Michael Ross", role: "Lead Dev", img: "https://i.pravatar.cc/300?img=8", desc: "Full-stack architecture." },
-      { name: "Emily Blunt", role: "Sys Admin", img: "https://i.pravatar.cc/300?img=10", desc: "Infrastructure stability." }
-    ]
+      ]
   },
   {
     id: 'finance',
@@ -105,7 +130,6 @@ const departments = [
     icon: 'payments',
     description: 'Managing fiscal health and sustainable growth.',
     members: [
-      { name: "David Chen", role: "CFO", img: "https://i.pravatar.cc/300?img=13", desc: "Financial strategy and planning." }
     ]
   },
   {
@@ -114,10 +138,7 @@ const departments = [
     icon: 'groups',
     description: 'Nurturing our most valuable asset: our people.',
     members: [
-      { name: "Anita Desai", role: "HR Director", img: "https://i.pravatar.cc/300?img=24", desc: "Organizational culture." },
-      { name: "Kevin Hart", role: "Talent Acquisition", img: "https://i.pravatar.cc/300?img=14", desc: "Recruiting top talent." },
-      { name: "Laura Croft", role: "Employee Relations", img: "https://i.pravatar.cc/300?img=20", desc: "Team engagement." }
-    ]
+      ]
   }
 ];
 interface ABoutus {
