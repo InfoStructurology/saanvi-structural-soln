@@ -58,55 +58,55 @@ const departments = [
     members: [
       { name: "Venkatesh Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/venkatesh-kannan-b52311b4/", img: "images/Venkatesh.jpeg", desc: "15+ years in photovoltaic structural design." },
       { name: "Selvamuthumani T", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/selvamuthumani-t-345355179/", img: "images/salva.jpeg", desc: "Expert in wind load analysis for solar arrays." },
-       { name: "Aarthy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aarthy.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "ABINAYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ABINAYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Aijithkumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aijithkumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "ANJUMARYABRAHAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ANJUMARYABRAHAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Annapoorna", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Annapoorna.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Aravindraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aravindraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Arunmaniswamy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Arunmaniswamy.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Balaji", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balaji.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Balakumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balakumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "CHARUMATHI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/CHARUMATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Deepika", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Deepika.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Girija", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Girija.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "GUNASHEELA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/GUNASHEELA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "JAYASURIYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JAYASURIYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "JEEVITHA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JEEVITHA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Jeyanthi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Jeyanthi.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "JOSHUASAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JOSHUASAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kannan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Kirthyvasan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kirthyvasan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Kotteswari", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kotteswari.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Mathangi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Mathangi.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Meeradevi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meeradevi.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Meganathan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meganathan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "MohanaPriya", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/MohanaPriya.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Muthukumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Muthukumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "NEELASUNDARAVALLI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NEELASUNDARAVALLI.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "NikhilRaj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NikhilRaj.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Rekha", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Rekha.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "REVATHI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/REVATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Saikiran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Saikiran.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "SATHISH", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/SATHISH.JPG", desc: "Expert in wind load analysis for solar arrays." },
-// { name: "Selvamuthumani", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Selvamuthumani.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "shanmugam", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/shanmugam.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Sharmila", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sharmila.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Sivasankar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sivasankar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Srijan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Srijan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Subash", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Subash.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Thangaraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thangaraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Thiyagarajan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thiyagarajan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Venkatesh Kumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Venkatesh Kumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Vetrikuumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vetrikuumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-{ name: "Vignesh", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vignesh.JPG", desc: "Expert in wind load analysis for solar arrays." }  ]
+      { name: "Aarthy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aarthy.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "ABINAYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ABINAYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Aijithkumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aijithkumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "ANJU MARY ABRAHAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ANJUMARYABRAHAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Annapoorna", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Annapoorna.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Aravindraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aravindraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Arunmaniswamy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Arunmaniswamy.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Balaji", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balaji.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Balakumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balakumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "CHARUMATHI K", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/CHARUMATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Deepika", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Deepika.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Girija", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Girija.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "GUNASHEELA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/GUNASHEELA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "JAYASURIYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JAYASURIYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "JEEVITHA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JEEVITHA.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Jeyanthi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Jeyanthi.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "JOSHUA SAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JOSHUASAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kannan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Kirthyvasan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kirthyvasan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Kotteswari", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kotteswari.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Mathangi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Mathangi.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Meera devi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meeradevi.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Meganathan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meganathan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Mohana Priya", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/MohanaPriya.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Muthu kumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Muthukumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "NEELA SUNDARAVALLI M", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NEELASUNDARAVALLI.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Nikhil Raj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NikhilRaj.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Rekha", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Rekha.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "REVATHI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/REVATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Saikiran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Saikiran.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "SATHISH", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/SATHISH.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      // { name: "Selvamuthumani", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Selvamuthumani.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "shanmugam", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/shanmugam.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Sharmila", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sharmila.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Sivasankar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sivasankar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Srijan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Srijan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Subash", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Subash.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Thangaraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thangaraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Thiyagarajan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thiyagarajan.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Venkatesh Kumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Venkatesh Kumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Vetrikuumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vetrikuumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Vignesh", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vignesh.JPG", desc: "Expert in wind load analysis for solar arrays." }]
   },
   {
     id: 'buildings',
     name: 'Buildings & Infrastructure',
     icon: 'apartment',
     description: 'Constructing the skylines of tomorrow with precision and safety.',
-    members: [  ]
+    members: []
   },
   {
     id: 'telecom',
@@ -114,7 +114,7 @@ const departments = [
     icon: 'cell_tower',
     description: 'Ensuring connectivity through robust tower engineering.',
     members: [
-      ]
+    ]
   },
   {
     id: 'tech',
@@ -122,7 +122,7 @@ const departments = [
     icon: 'terminal',
     description: 'Driving digital transformation and software solutions.',
     members: [
-      ]
+    ]
   },
   {
     id: 'finance',
@@ -138,7 +138,7 @@ const departments = [
     icon: 'groups',
     description: 'Nurturing our most valuable asset: our people.',
     members: [
-      ]
+    ]
   }
 ];
 interface ABoutus {
@@ -223,7 +223,7 @@ const AboutUs: React.FC<ABoutus> = ({ onNavigate }) => {
                   </div>
 
                   <h4 className="text-lg font-bold text-text-main text-center">
-                    {member.name}
+                    {member.name.charAt(0).toUpperCase() + member.name.slice(1).toLowerCase()}
                   </h4>
 
                   <p className="text-sm font-medium text-primary mb-2 text-center">
