@@ -98,7 +98,7 @@ const departments = [
       { name: "Thangaraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thangaraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
       { name: "Thiyagarajan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thiyagarajan.JPG", desc: "Expert in wind load analysis for solar arrays." },
       { name: "Venkatesh Kumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Venkatesh Kumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Vetrikuumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vetrikuumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
+      { name: "Vetrikumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vetrikuumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
       { name: "Vignesh", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vignesh.JPG", desc: "Expert in wind load analysis for solar arrays." }]
   },
   {
@@ -223,8 +223,11 @@ const AboutUs: React.FC<ABoutus> = ({ onNavigate }) => {
                   </div>
 
                   <h4 className="text-lg font-bold text-text-main text-center">
-                    {member.name.charAt(0).toUpperCase() + member.name.slice(1).toLowerCase()}
-                  </h4>
+                    {member.name
+                      .toLowerCase()
+                      .split(" ")
+                      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                      .join(" ")}                  </h4>
 
                   <p className="text-sm font-medium text-primary mb-2 text-center">
                     {member.role}
