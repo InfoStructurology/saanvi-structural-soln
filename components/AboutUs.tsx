@@ -55,51 +55,444 @@ const departments = [
     name: 'Solar Engineering',
     icon: icon,
     description: 'Innovating renewable energy infrastructure for a sustainable future.',
-    members: [
-      { name: "Venkatesh Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/venkatesh-kannan-b52311b4/", img: "images/Venkatesh.jpeg", desc: "15+ years in photovoltaic structural design." },
-      { name: "Selvamuthumani T", role: "Structural Engineer", linkedin: "https://www.linkedin.com/in/selvamuthumani-t-345355179/", img: "images/salva.jpeg", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Aarthy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aarthy.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "ABINAYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ABINAYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Aijithkumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aijithkumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "ANJU MARY ABRAHAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/ANJUMARYABRAHAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Annapoorna", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Annapoorna.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Aravindraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Aravindraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Arunmaniswamy", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Arunmaniswamy.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Balaji", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balaji.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Balakumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Balakumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "CHARUMATHI K", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/CHARUMATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Deepika", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Deepika.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Girija", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Girija.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "GUNASHEELA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/GUNASHEELA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "JAYASURIYA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JAYASURIYA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "JEEVITHA", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JEEVITHA.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Jeyanthi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Jeyanthi.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "JOSHUA SAM", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/JOSHUASAM.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Kannan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kannan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Kirthyvasan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kirthyvasan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Kotteswari", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Kotteswari.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Mathangi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Mathangi.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Meera devi", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meeradevi.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Meganathan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Meganathan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Mohana Priya", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/MohanaPriya.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Muthu kumaran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Muthukumaran.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "NEELA SUNDARAVALLI M", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NEELASUNDARAVALLI.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Nikhil Raj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/NikhilRaj.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Rekha", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Rekha.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "REVATHI", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/REVATHI.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Saikiran", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Saikiran.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "SATHISH", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/SATHISH.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      // { name: "Selvamuthumani", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Selvamuthumani.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "shanmugam", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/shanmugam.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Sharmila", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sharmila.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Sivasankar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Sivasankar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Srijan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Srijan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Subash", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Subash.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Thangaraj", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thangaraj.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Thiyagarajan", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Thiyagarajan.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Venkatesh Kumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Venkatesh Kumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Vetrikumar", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vetrikuumar.JPG", desc: "Expert in wind load analysis for solar arrays." },
-      { name: "Vignesh", role: "Structural Engineer", linkedin: "https://www.linkedin.com", img: "images/Vignesh.JPG", desc: "Expert in wind load analysis for solar arrays." }]
+    members:
+      [
+        {
+          "name": "Venkatesh Kannan",
+          "role": "Project Lead",
+          "linkedin": "https://www.linkedin.com/in/venkatesh-kannan-b52311b4/",
+          "img": "images/Venkatesh.jpeg",
+          "desc": "Project Lead in the Building department with 15+ years in photovoltaic structural design."
+        },
+        {
+          "name": "Selvamuthumani T",
+          "role": "Project Lead",
+          "linkedin": "https://www.linkedin.com/in/selvamuthumani-t-345355179/",
+          "img": "images/salva.jpeg",
+          "desc": "Project Lead in Solar / Renewables; Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "Aarthy K",
+          "role": "Design Engineer II",
+          "linkedin": "https://www.linkedin.com/in/aarthy-k-4859342a0",
+          "img": "images/Aarthy.JPG",
+          "desc": "Design Engineer II in the Telecom department; Expert in wind load analysis."
+        },
+        {
+          "name": "ABINAYA S",
+          "role": "QC Engineer",
+          "linkedin": "https://www.linkedin.com/in/abinaya-s-04771929a",
+          "img": "images/ABINAYA.JPG",
+          "desc": "QC Engineer in Solar / Renewables; Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "Ajithkumar L",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/ajithkumar-l-946284362",
+          "img": "images/Aijithkumar.JPG",
+          "desc": "Design Engineer III in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "ANJU MARY ABRAHAM",
+          "role": "Design Engineer I",
+          "linkedin": "https://www.linkedin.com/in/anju-mary-abraham-536b69252",
+          "img": "images/ANJUMARYABRAHAM.JPG",
+          "desc": "Design Engineer I in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Annapoorna",
+          "role": "Structural Engineer",
+          "linkedin": "https://www.linkedin.com",
+          "img": "images/Annapoorna.JPG",
+          "desc": "Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "Aravindraj G",
+          "role": "Team Lead",
+          "linkedin": "https://www.linkedin.com/in/aravind-raj-0009b8289",
+          "img": "images/Aravindraj.JPG",
+          "desc": "Team Lead in the Telecom department; Expert in wind load analysis."
+        },
+        {
+          "name": "Arunmaniswamy D",
+          "role": "Design Engineer II",
+          "linkedin": "http://linkedin.com/in/arun-mani-samy-8886b7349",
+          "img": "images/Arunmaniswamy.JPG",
+          "desc": "Design Engineer II in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Balaji S R",
+          "role": "Design Engineer II",
+          "linkedin": "https://www.linkedin.com/in/balaji-s-r-21996a167/",
+          "img": "images/Balaji.JPG",
+          "desc": "Design Engineer II in the Telecom department; Expert in wind load analysis."
+        },
+        {
+          "name": "Balakumaran A",
+          "role": "Design Engineer II",
+          "linkedin": "http://linkedin.com/in/balakumaran-a-b30559223",
+          "img": "images/Balakumaran.JPG",
+          "desc": "Design Engineer II in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "CHARUMATHI K",
+          "role": "Drafter I",
+          "linkedin": "https://www.linkedin.com/in/charumathi-k-5605942b3",
+          "img": "images/CHARUMATHI.JPG",
+          "desc": "Drafter I in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Deepika T",
+          "role": "Project Lead",
+          "linkedin": "https://www.linkedin.com/in/deepu-raj-6a8349356",
+          "img": "images/Deepika.JPG",
+          "desc": "Project Lead in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Girija G",
+          "role": "Design Engineer II",
+          "linkedin": "www.linkedin.com/in/girija-g-g-865216101",
+          "img": "images/Girija.JPG",
+          "desc": "Design Engineer II in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "GUNASHEELA A",
+          "role": "Design Engineer III",
+          "linkedin": "http://linkedin.com/in/gunasheela-anburaj-32181430a",
+          "img": "images/GUNASHEELA.JPG",
+          "desc": "Design Engineer III in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "JAYASURIYA R",
+          "role": "Design Engineer",
+          "linkedin": "https://www.linkedin.com/in/jayasuriya-r-4b6287215",
+          "img": "images/JAYASURIYA.JPG",
+          "desc": "Design Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "JEEVITHA A",
+          "role": "Junior Accountant",
+          "linkedin": "https://www.linkedin.com/in/jeevitha-a-142859293",
+          "img": "images/JEEVITHA.JPG",
+          "desc": "Junior Accountant in the Accounts department; Expert in wind load analysis."
+        },
+        {
+          "name": "Jeyanthi S",
+          "role": "Senior Accountant",
+          "linkedin": "https://www.linkedin.com/in/jeyanthi-sudalaimuthu-933872226/",
+          "img": "images/Jeyanthi.JPG",
+          "desc": "Senior Accountant in the Accounts department; Expert in wind load analysis."
+        },
+        {
+          "name": "JOSHUA SAM JOSEPH",
+          "role": "Design Engineer",
+          "linkedin": "https://www.linkedin.com/in/sam-joshua-272871333",
+          "img": "images/JOSHUASAM.JPG",
+          "desc": "Design Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Kannan N",
+          "role": "QC Engineer",
+          "linkedin": "www.linkedin.com/in/kannan-n-3255443b6",
+          "img": "images/Kannan.JPG",
+          "desc": "QC Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Kirthyvasan",
+          "role": "Structural Engineer",
+          "linkedin": "https://www.linkedin.com",
+          "img": "images/Kirthyvasan.JPG",
+          "desc": "Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "Kotteswari",
+          "role": "Structural Engineer",
+          "linkedin": "https://www.linkedin.com",
+          "img": "images/Kotteswari.JPG",
+          "desc": "Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "Mathangi B",
+          "role": "Geo-tech Engineer",
+          "linkedin": "www.linkedin.com/in/mathangi-b-16a346137",
+          "img": "images/Mathangi.JPG",
+          "desc": "Geo-tech Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Meera Devi B",
+          "role": "Drafter II",
+          "linkedin": "https://www.linkedin.com/in/meera-devi-b544b12b0",
+          "img": "images/Meeradevi.JPG",
+          "desc": "Drafter II in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Meganathan",
+          "role": "Structural Engineer",
+          "linkedin": "https://www.linkedin.com",
+          "img": "images/Meganathan.JPG",
+          "desc": "Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "Mohana Priya K",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/mohana-priya-748573327",
+          "img": "images/MohanaPriya.JPG",
+          "desc": "Design Engineer III in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Muthu kumaran",
+          "role": "Structural Engineer",
+          "linkedin": "https://www.linkedin.com",
+          "img": "images/Muthukumaran.JPG",
+          "desc": "Expert in wind load analysis for solar arrays."
+        },
+        {
+          "name": "NEELA SUNDARAVALLI M",
+          "role": "Design Engineer I",
+          "linkedin": "https://www.linkedin.com/in/neela-sundaravalli-m-567074365",
+          "img": "images/NEELASUNDARAVALLI.JPG",
+          "desc": "Design Engineer I in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Nikhil Raaj K",
+          "role": "Geo-tech Engineer",
+          "linkedin": "www.linkedin.com/in/nikhilraaj",
+          "img": "images/NikhilRaj.JPG",
+          "desc": "Geo-tech Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Rekha M",
+          "role": "QC Engineer",
+          "linkedin": "https://www.linkedin.com/in/rekhamuthazhagan",
+          "img": "images/Rekha.JPG",
+          "desc": "QC Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "REVATHI E",
+          "role": "Senior Technical Writer",
+          "linkedin": "https://www.linkedin.com/in/revathi-elayanambi",
+          "img": "images/REVATHI.JPG",
+          "desc": "Senior Technical Writer in the Forensics department."
+        },
+        {
+          "name": "Sai Kiran M",
+          "role": "Project Lead",
+          "linkedin": "www.linkedin.com/in/msaikiran25",
+          "img": "images/Saikiran.JPG",
+          "desc": "Project Lead in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "SATHISH B",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/sathish-b-189aa41a0",
+          "img": "images/SATHISH.JPG",
+          "desc": "Design Engineer III in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "shanmugam S",
+          "role": "Design Engineer I",
+          "linkedin": "https://www.linkedin.com/in/shanmugamsettu",
+          "img": "images/shanmugam.JPG",
+          "desc": "Design Engineer I in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Sharmila J",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/sharmila-j-99935a265",
+          "img": "images/Sharmila.JPG",
+          "desc": "Design Engineer III in the Telecom department; Expert in wind load analysis."
+        },
+        {
+          "name": "Sivasankar G K",
+          "role": "Design Engineer II",
+          "linkedin": "https://www.linkedin.com/in/siva-sankar-9249b7250",
+          "img": "images/Sivasankar.JPG",
+          "desc": "Design Engineer II in the Telecom department; Expert in wind load analysis."
+        },
+        {
+          "name": "Srijan P",
+          "role": "Geo tech Engineer",
+          "linkedin": "www.linkedin.com/in/dr-srijan-66a9ab80",
+          "img": "images/Srijan.JPG",
+          "desc": "Geo tech Engineer in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Subash P",
+          "role": "Design Engineer II",
+          "linkedin": "https://www.linkedin.com/in/subash03",
+          "img": "images/Subash.JPG",
+          "desc": "Design Engineer II in Solar / Renewables; Expert in wind load analysis."
+        },
+        {
+          "name": "Thangaraj V",
+          "role": "Software Developer",
+          "linkedin": "https://www.linkedin.com/in/thangaraj-v-2304vtr1998/",
+          "img": "images/Thangaraj.JPG",
+          "desc": "Software Developer in Technology; Expert in wind load analysis."
+        },
+        {
+          "name": "Thiyagarajan V",
+          "role": "Drafter III",
+          "linkedin": "https://www.linkedin.com/in/thiyagu-v-7861b0326",
+          "img": "images/Thiyagarajan.JPG",
+          "desc": "Drafter III in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Venkatesh Kumar J",
+          "role": "Design Engineer II",
+          "linkedin": "https://www.linkedin.com/in/venkatesh-kumar-61841a27",
+          "img": "images/Venkatesh Kumar.JPG",
+          "desc": "Design Engineer II in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Vetrikumar A",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/vetri-kumar-3bb7932a3",
+          "img": "images/Vetrikuumar.JPG",
+          "desc": "Design Engineer III in the Telecom department; Expert in wind load analysis."
+        },
+        {
+          "name": "Vignesh A",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/vignesh1772000",
+          "img": "images/Vignesh.JPG",
+          "desc": "Design Engineer III in the Building department; Expert in wind load analysis."
+        },
+        {
+          "name": "Renganayaki K",
+          "role": "Team Lead",
+          "linkedin": "https://www.linkedin.com/in/renga-nayaki-2a936021a/",
+          "img": "images/Renganayaki.JPG",
+          "desc": "Team Lead in the Telecom department."
+        },
+        {
+          "name": "Ramya R",
+          "role": "QC Engineer",
+          "linkedin": "https://www.linkedin.com/in/ramya-ramamoorthy-262157235",
+          "img": "images/Ramya.JPG",
+          "desc": "QC Engineer specializing in Solar / Renewables."
+        },
+        {
+          "name": "Ammu R",
+          "role": "Design Engineer III",
+          "linkedin": "https://www.linkedin.com/in/ammurajendran",
+          "img": "images/Ammu.JPG",
+          "desc": "Design Engineer III in the Telecom department."
+        },
+        {
+          "name": "Avinash Nadh Basuvu",
+          "role": "Product Manager",
+          "linkedin": null,
+          "img": "images/Avinash.JPG",
+          "desc": "Product Manager in the Technology department."
+        },
+        {
+          "name": "Darshan AB",
+          "role": "Drafter III",
+          "linkedin": null,
+          "img": "images/Darshan.JPG",
+          "desc": "Drafter III in the Building department."
+        },
+        {
+          "name": "Karthik G",
+          "role": "Design Engineer II",
+          "linkedin": "https://www.linkedin.com/in/karthik-g-82a5a1282",
+          "img": "images/Karthik.JPG",
+          "desc": "Design Engineer II in the Telecom department."
+        },
+        {
+          "name": "Manikanth T",
+          "role": "Software Developer",
+          "linkedin": "https://www.linkedin.com/in/manikanth-tarine-704417192/",
+          "img": "images/manikanth.jpg",
+          "desc": "Software Developer in the Technology department."
+        },
+        {
+          "name": "Kattula Pavan Kumar",
+          "role": "Software Developer",
+          "linkedin": null,
+          "img": "images/Pavan.JPG",
+          "desc": "Software Developer in the Technology department."
+        },
+        {
+          "name": "Monisha C",
+          "role": "HR",
+          "linkedin": "https://www.linkedin.com/in/monisha-chandran-34372a173",
+          "img": "images/Monisha.JPG",
+          "desc": "Human Resource specialist."
+        },
+        {
+          "name": "Harish E",
+          "role": "Design Engineer I",
+          "linkedin": "https://www.linkedin.com/in/harish-i-ba939b381",
+          "img": "images/Harish.JPG",
+          "desc": "Design Engineer I in the Telecom department."
+        },
+        {
+          "name": "Hariharan M",
+          "role": "Design Engineer I",
+          "linkedin": "https://www.linkedin.com/in/hari-haran-634092325",
+          "img": "images/Hariharan.JPG",
+          "desc": "Design Engineer I in the Telecom department."
+        },
+        {
+          "name": "Atshaya S",
+          "role": "Technical Writer",
+          "linkedin": "https://www.linkedin.com/in/atshaya-s-75967a313?",
+          "img": "images/Atshaya.JPG",
+          "desc": "Technical writer in the Forensics department."
+        },
+        {
+          "name": "Shalini A S",
+          "role": "Drafter I",
+          "linkedin": "https://www.linkedin.com/in/shalini-a-s-16a415307",
+          "img": "images/Shalini.JPG",
+          "desc": "Drafter I in the Building department."
+        },
+        {
+          "name": "Sundaravaradan A",
+          "role": "Technical Writer",
+          "linkedin": "https://www.linkedin.com/in/sundara-varadan-297b5b275",
+          "img": "images/Sundaravaradan.JPG",
+          "desc": "Technical writer in the Forensics department."
+        },
+        {
+          "name": "Sivasuriya S",
+          "role": "Technical Writer",
+          "linkedin": "https://www.linkedin.com/in/sivasuriya-s-84456a27a",
+          "img": "images/Sivasuriya.JPG",
+          "desc": "Technical writer in the Forensics department."
+        },
+        {
+          "name": "Yuvashri A",
+          "role": "Technical Writer",
+          "linkedin": "https://www.linkedin.com/in/a-yuvashri-0459963b7",
+          "img": "images/Yuvashri.JPG",
+          "desc": "Technical writer in the Forensics department."
+        },
+        {
+          "name": "Srinivethitha J",
+          "role": "Design Engineer I",
+          "linkedin": "https://www.linkedin.com/in/srinivethitha-jayachandiran-5a5571391",
+          "img": "images/Srinivethitha.JPG",
+          "desc": "Design Engineer I in Solar / Renewables."
+        },
+        {
+          "name": "Sarathiaboorvan C",
+          "role": "Design Engineer I",
+          "linkedin": "http://www.linkedin.com/in/sarathi-c-a831b035a",
+          "img": "images/Sarathiaboorvan.JPG",
+          "desc": "Design Engineer I in Solar / Renewables."
+        },
+        {
+          "name": "Sathvika A",
+          "role": "Drafter I",
+          "linkedin": "https://www.linkedin.com/in/sathvika-r-aa7550355",
+          "img": "images/Sathvika.JPG",
+          "desc": "Drafter I in the Building department."
+        }
+
+      ]
   },
   {
     id: 'buildings',
@@ -227,7 +620,8 @@ const AboutUs: React.FC<ABoutus> = ({ onNavigate }) => {
                       .toLowerCase()
                       .split(" ")
                       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                      .join(" ")}                  </h4>
+                      .join(" ")}
+                  </h4>
 
                   <p className="text-sm font-medium text-primary mb-2 text-center">
                     {member.role}
