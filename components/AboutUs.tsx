@@ -46,8 +46,8 @@ const departments = [
     icon: 'admin_panel_settings',
     description: 'Guiding our strategic vision and operational excellence.',
     members: [
-      { name: "Madhan Kumar K, MS, P.E", role: "Director", linkedin: "https://www.linkedin.com/in/madhankumark-ms-pe/", img: "images/maf.avif", desc: "Visionary leader with 20+ years in infra." },
-      { name: "Sridhar Kethu P.E", role: "Director of Engineering", linkedin: "https://www.linkedin.com/in/sridhar-kethu-62997a166/", img: "images/sri.avif", desc: "Operational excellence and strategy." }
+      { name: "Madhan Kumar K, MS, PE", role: "Director", linkedin: "https://www.linkedin.com/in/madhankumark-ms-pe/", img: "images/maf.avif", desc: "Visionary leader with 20+ years in infra." },
+      { name: "Sridhar Kethu PE", role: "Director of Engineering", linkedin: "https://www.linkedin.com/in/sridhar-kethu-62997a166/", img: "images/sri.avif", desc: "Operational excellence and strategy." }
     ]
   },
   {
@@ -362,42 +362,42 @@ const departments = [
           "name": "Renganayaki K",
           "role": "Team Lead",
           "linkedin": "https://www.linkedin.com/in/renga-nayaki-2a936021a/",
-          "img": "images/Renganayaki.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Team Lead in the Telecom department."
         },
         {
           "name": "Ramya R",
           "role": "QC Engineer",
           "linkedin": "https://www.linkedin.com/in/ramya-ramamoorthy-262157235",
-          "img": "images/Ramya.JPG",
+          "img": "images/Saanvi.png",
           "desc": "QC Engineer specializing in Solar / Renewables."
         },
         {
           "name": "Ammu R",
           "role": "Design Engineer III",
           "linkedin": "https://www.linkedin.com/in/ammurajendran",
-          "img": "images/Ammu.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Design Engineer III in the Telecom department."
         },
         {
           "name": "Avinash Nadh Basuvu",
           "role": "Product Manager",
           "linkedin": null,
-          "img": "images/Avinash.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Product Manager in the Technology department."
         },
         {
           "name": "Darshan AB",
           "role": "Drafter III",
           "linkedin": null,
-          "img": "images/Darshan.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Drafter III in the Building department."
         },
         {
           "name": "Karthik G",
           "role": "Design Engineer II",
           "linkedin": "https://www.linkedin.com/in/karthik-g-82a5a1282",
-          "img": "images/Karthik.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Design Engineer II in the Telecom department."
         },
         {
@@ -411,84 +411,84 @@ const departments = [
           "name": "Kattula Pavan Kumar",
           "role": "Software Developer",
           "linkedin": null,
-          "img": "images/Pavan.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Software Developer in the Technology department."
         },
         {
           "name": "Monisha C",
           "role": "HR",
           "linkedin": "https://www.linkedin.com/in/monisha-chandran-34372a173",
-          "img": "images/Monisha.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Human Resource specialist."
         },
         {
           "name": "Harish E",
           "role": "Design Engineer I",
           "linkedin": "https://www.linkedin.com/in/harish-i-ba939b381",
-          "img": "images/Harish.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Design Engineer I in the Telecom department."
         },
         {
           "name": "Hariharan M",
           "role": "Design Engineer I",
           "linkedin": "https://www.linkedin.com/in/hari-haran-634092325",
-          "img": "images/Hariharan.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Design Engineer I in the Telecom department."
         },
         {
           "name": "Atshaya S",
           "role": "Technical Writer",
           "linkedin": "https://www.linkedin.com/in/atshaya-s-75967a313?",
-          "img": "images/Atshaya.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Technical writer in the Forensics department."
         },
         {
           "name": "Shalini A S",
           "role": "Drafter I",
           "linkedin": "https://www.linkedin.com/in/shalini-a-s-16a415307",
-          "img": "images/Shalini.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Drafter I in the Building department."
         },
         {
           "name": "Sundaravaradan A",
           "role": "Technical Writer",
           "linkedin": "https://www.linkedin.com/in/sundara-varadan-297b5b275",
-          "img": "images/Sundaravaradan.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Technical writer in the Forensics department."
         },
         {
           "name": "Sivasuriya S",
           "role": "Technical Writer",
           "linkedin": "https://www.linkedin.com/in/sivasuriya-s-84456a27a",
-          "img": "images/Sivasuriya.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Technical writer in the Forensics department."
         },
         {
           "name": "Yuvashri A",
           "role": "Technical Writer",
           "linkedin": "https://www.linkedin.com/in/a-yuvashri-0459963b7",
-          "img": "images/Yuvashri.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Technical writer in the Forensics department."
         },
         {
           "name": "Srinivethitha J",
           "role": "Design Engineer I",
           "linkedin": "https://www.linkedin.com/in/srinivethitha-jayachandiran-5a5571391",
-          "img": "images/Srinivethitha.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Design Engineer I in Solar / Renewables."
         },
         {
           "name": "Sarathiaboorvan C",
           "role": "Design Engineer I",
           "linkedin": "http://www.linkedin.com/in/sarathi-c-a831b035a",
-          "img": "images/Sarathiaboorvan.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Design Engineer I in Solar / Renewables."
         },
         {
           "name": "Sathvika A",
           "role": "Drafter I",
           "linkedin": "https://www.linkedin.com/in/sathvika-r-aa7550355",
-          "img": "images/Sathvika.JPG",
+          "img": "images/Saanvi.png",
           "desc": "Drafter I in the Building department."
         }
 
@@ -616,11 +616,16 @@ const AboutUs: React.FC<ABoutus> = ({ onNavigate }) => {
                   </div>
 
                   <h4 className="text-lg font-bold text-text-main text-center">
-                    {member.name
-                      .toLowerCase()
-                      .split(" ")
-                      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                      .join(" ")}
+                    {
+                      member.name.includes("Madhan Kumar") || member.name.includes("Sridhar Kethu")
+                        ? member.name // Return full original name (with MS, PE, etc.)
+                        : member.name
+                          .toLowerCase()      // Convert to lowercase
+                          .split(" ")         // Split into words
+                          .slice(0, 2)        // Take only the first two
+                          .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize first letter
+                          .join(" ")
+                    }
                   </h4>
 
                   <p className="text-sm font-medium text-primary mb-2 text-center">
