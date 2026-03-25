@@ -99,13 +99,13 @@ const departments = [
           "img": "images/ANJUMARYABRAHAM.JPG",
           "desc": "Design Engineer I in Solar / Renewables; Expert in wind load analysis."
         },
-        {
-          "name": "Annapoorna",
-          "role": "Structural Engineer",
-          "linkedin": "https://www.linkedin.com",
-          "img": "images/Annapoorna.JPG",
-          "desc": "Expert in wind load analysis for solar arrays."
-        },
+        // {
+        //   "name": "Annapoorna",
+        //   "role": "Structural Engineer",
+        //   "linkedin": "https://www.linkedin.com",
+        //   "img": "images/Annapoorna.JPG",
+        //   "desc": "Expert in wind load analysis for solar arrays."
+        // },
         {
           "name": "Aravindraj G",
           "role": "Team Lead",
@@ -197,20 +197,20 @@ const departments = [
           "img": "images/Kannan.JPG",
           "desc": "QC Engineer in Solar / Renewables; Expert in wind load analysis."
         },
-        {
-          "name": "Kirthyvasan",
-          "role": "Structural Engineer",
-          "linkedin": "https://www.linkedin.com",
-          "img": "images/Kirthyvasan.JPG",
-          "desc": "Expert in wind load analysis for solar arrays."
-        },
-        {
-          "name": "Kotteswari",
-          "role": "Structural Engineer",
-          "linkedin": "https://www.linkedin.com",
-          "img": "images/Kotteswari.JPG",
-          "desc": "Expert in wind load analysis for solar arrays."
-        },
+        // {
+        //   "name": "Kirthyvasan",
+        //   "role": "Structural Engineer",
+        //   "linkedin": "https://www.linkedin.com",
+        //   "img": "images/Kirthyvasan.JPG",
+        //   "desc": "Expert in wind load analysis for solar arrays."
+        // },
+        // {
+        //   "name": "Kotteswari",
+        //   "role": "Structural Engineer",
+        //   "linkedin": "https://www.linkedin.com",
+        //   "img": "images/Kotteswari.JPG",
+        //   "desc": "Expert in wind load analysis for solar arrays."
+        // },
         {
           "name": "Mathangi B",
           "role": "Geo-tech Engineer",
@@ -225,13 +225,13 @@ const departments = [
           "img": "images/Meeradevi.JPG",
           "desc": "Drafter II in the Building department; Expert in wind load analysis."
         },
-        {
-          "name": "Meganathan",
-          "role": "Structural Engineer",
-          "linkedin": "https://www.linkedin.com",
-          "img": "images/Meganathan.JPG",
-          "desc": "Expert in wind load analysis for solar arrays."
-        },
+        // {
+        //   "name": "Meganathan",
+        //   "role": "Structural Engineer",
+        //   "linkedin": "https://www.linkedin.com",
+        //   "img": "images/Meganathan.JPG",
+        //   "desc": "Expert in wind load analysis for solar arrays."
+        // },
         {
           "name": "Mohana Priya K",
           "role": "Design Engineer III",
